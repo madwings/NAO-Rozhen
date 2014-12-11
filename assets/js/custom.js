@@ -67,17 +67,8 @@ function tab_widget(tabid) {
 
 
 jQuery(document).ready(function($) {
-
-
-
-
 	// ToolTips
-
 	if ( $().tipsy ) { sTip=function(){ $('.stip').tipsy({gravity: 'n', fade:true}); }; sTip(); }
-
-
-	
-
 	// Top Socials
 
 	topSocialExpander=function(){
@@ -138,16 +129,4 @@ jQuery(document).ready(function($) {
 	$(window).resize(function() {
 		topSocialExpander();
 	});
-
-
-
-
-	
-
-
-	
-
-	
-
-
 });

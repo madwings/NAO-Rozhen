@@ -1,2 +1,99 @@
-@import url('topBar.css');
-@import url('tipsy.css');
+body{
+	background-image: url("../images/icons/texturetastic.png");
+    background-repeat: repeat; 
+}
+
+
+.headerContent {
+    background: url("../images/icons/headerImg.png") no-repeat;
+    color:#fff;
+    height: 230px;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+
+#anchors{
+	margin-top: 10px;
+	padding-left: 19px;
+}
+
+
+#anchors a{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: "corbel",Monospace;
+	padding: 1px 5px 3px 0px;
+	color: #c7c7c7;
+	text-shadow: 1px 0px 0px rgba(87, 86, 87, 1);
+	
+}
+
+#anchors a:first-child{
+	border-right: 1px solid #c7c7c7;
+}
+
+#anchors a:hover{
+	color:#626262;
+	text-decoration: none;
+}
+
+#NAOHeader{
+	padding-top: 20px;
+	margin-bottom: 52px;
+}
+
+#NAOHeaderTitle{
+	font-size: 25px;
+	color: #a4a2a6;
+	font-family: "GulimChe", sans-serif;
+	font-weight: bold;
+}
+
+
+#clocks p{
+	color: #4d4d4e;
+	padding-left: 17px;
+	font-weight: bold;
+}
+
+
+/*
+How to justify navbar-nav in Bootstrap 3
+-this classes are in ul of nav
+.navbar-nav.nav-justified>li{
+	float:none;
+}*/
+
+.navBorderTop{
+	background-image: url("../images/icons/navBorder.png");
+	background-repeat: repeat-x;
+	height: 2px;
+
+}
+
+#nav{
+	min-height: 40px;
+	background-color: rgba(67, 76, 83, 0.1);
+	margin-bottom: 0px;
+}
+
+#navigation {
+	padding-left: 75px;
+}
+
+#navigation a{
+	font-family: "corbel";
+	font-weight: bold;
+	font-size: 15px;
+	color: #434c53;
+	text-shadow: 0px 1px 0px rgba(223, 223, 223, 1);
+	padding:10px 15px 10px 15px;
+	opacity: 1;
+}
+
+#navigation a:hover {
+	background: none;
+	color: #6a7883;
+}
+

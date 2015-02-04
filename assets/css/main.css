@@ -3,6 +3,10 @@ body{
     background-repeat: repeat; 
 }
 
+.boxShadow{
+	box-shadow: 0px 0px 7px #000;
+
+}
 
 .headerContent {
     background: url("../images/icons/headerImg.png") no-repeat;
@@ -11,6 +15,8 @@ body{
     margin: 0 auto;
     max-width: 1400px;
 }
+
+
 
 
 #anchors{
@@ -40,7 +46,7 @@ body{
 
 #NAOHeader{
 	padding-top: 20px;
-	margin-bottom: 52px;
+	margin-bottom: 53px;
 }
 
 #NAOHeaderTitle{
@@ -79,7 +85,7 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 #navigation {
-	padding-left: 75px;
+	padding-left: 60px;
 }
 
 #navigation a{
@@ -97,3 +103,540 @@ How to justify navbar-nav in Bootstrap 3
 	color: #6a7883;
 }
 
+/*content*/
+
+#content{
+	margin-top: 30px;
+	margin-bottom: 25px;
+}
+
+
+#banIcon{
+	padding-top: 20px;
+}
+
+#panel{
+	background-color: rgba(106, 120, 131, 0.1);
+	color:#5f666b;
+	font-size: 14px;
+	font-family: "corbel"
+}
+
+#panelBody{
+	padding: 8px 10px;
+	text-align: justify;
+	color: #5f666b;
+	font-size: 13px;
+	font-family: "corbel";
+	line-height: 1;
+}
+
+
+#iconContainer{
+	padding: 0px;
+}
+#iconNavigation {
+	padding-left: 10px;
+}
+
+#iconNavigation ul{
+	box-shadow: 10px 0px 10px -12px;
+}
+
+#iconNavigation li{
+	width: 125px;
+	height: 75px;
+	border-left: 2px groove;
+	background-image: url("../images/icons/shadow.png");
+	background-repeat: no-repeat;
+}
+
+#iconNavigation li a{
+	padding: 0px;
+	text-align: center;
+	width: 125px;
+	
+}
+
+.astroIcon{
+	opacity: 0.4;
+}
+
+.astroMenuText{
+	font-family: corbel;
+	font-weight: bold;
+	font-size: 11px;
+	display: block;
+	line-height: 1;
+	padding-top: 5px;
+	width:125px;
+	color: #6a7883;
+	
+}
+
+#iconNavigation a:hover{
+	background-color: transparent;
+}
+
+#iconNavigation a:hover > .astroIcon{
+	opacity: 1;
+	
+}
+
+#iconNavigation a:hover > .astroMenuText{
+	color: #434c53;
+}
+
+#iconNavigation li:last-child{
+	border-right: 2px groove;
+}
+
+
+#weatherBar{
+	padding-left: 0px;
+	padding-right: 0px;
+	width: 160px;
+	border-bottom: 2px ridge #dbddde;
+	padding-bottom: 10px;
+}
+
+#weatherBar span{
+	font-size: 12px;
+	font-family: "Tahoma";
+}
+
+#weatherBar img{
+	padding-left: 40px;
+	padding-top: 10px;
+}
+
+#secondRow{
+	margin-top: -45px;
+}
+
+#impMssg{
+	background-image: url("../images/icons/importantMssgShadow.png");
+	background-repeat: no-repeat;
+	background-position: 0px 70px;
+	padding-left: 10px;
+}
+
+.leftIcons{
+	width: 95px;
+	margin: 0px;
+	margin-bottom: 10px;
+	display: inline-block;
+	font-family: "corbel";
+	font-size: 8px;
+	text-align: center;
+}
+
+#partnersHeader{
+	font-family: "Tahoma";
+	font-size:12px;
+	text-align: center;
+	display: block;
+	color: #6a7883;
+	margin-bottom: 10px;
+}
+
+#partners{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+#partners p{
+	color: #434c53;
+}
+
+#partners a:hover{
+	color: #000;
+}
+
+#sectionArticles{
+	background-image: url("../images/icons/shadowOfArticles.png");
+	background-repeat: no-repeat;
+	background-position: 380px 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.leftArticles{
+	width:345px;
+	height:80px;
+	padding-left: 0px;
+	border-bottom: 2px dotted #91a2b0;
+	position: relative;
+}
+	
+.leftArticles a {
+	background:transparent;
+	border: none;
+	padding: 0px;
+}
+
+.leftArticles a:hover {
+	background-color: transparent !important;
+}
+
+.leftArticles a:hover>.readMoreArrow{
+	opacity: 1;
+}
+
+.leftArticleHeader{
+	font-weight: bold;
+	margin:0px;
+	padding-bottom: 5px;
+}
+
+.leftPics {
+	position: absolute;
+	float:left;
+	box-shadow: 1px 1px 10px;
+}
+.leftItemText{
+	font-family: "corbel";
+	font-size: 12px;
+	padding: 0px;
+	width: 320px;
+	padding-left: 95px;
+	text-align: justify;
+	line-height: 1;
+	position: absolute;
+}
+
+.readMoreArrow{
+	opacity: 0.3;
+	float: right;
+	padding-top: 10px;
+}
+
+.time{
+	float: right;
+	margin-top: -10px;
+	margin-right: -20px;
+}
+
+.leftArticles:last-child{
+	border:none;
+}
+
+.rightArticles{
+	width: 360px;
+	height: 150px;
+	border-bottom: 2px dotted #91a2b0;
+	padding-left: 5px;
+}
+
+.rightArticles a:hover {
+	background-color: transparent !important;
+}
+
+.rightArticles a:hover>.readMoreArrowRight{
+	opacity: 1;
+}
+
+.rightArticleHeader{
+	font-family: "Tahoma";
+	font-weight: bold;
+	text-decoration: none;
+	color: #434c53;
+	margin-bottom: 20px;
+}
+
+.rightArticles a{
+	background: transparent;
+	border: none;
+	padding: 0px;
+	position: relative;
+}
+
+.rightItemText p{
+	width: 160px;
+	height: 75px;
+	position: absolute;
+	font-size: 12px;
+	line-height: 1.4;
+	font-family: "corbel";
+}
+
+.rightItemText{
+	position: absolute;
+}
+
+.readMoreArrowRight{
+	padding-top: 45px;
+	padding-left: 165px;
+	opacity: 0.3;
+}
+
+.rightPics{
+	float: right;
+}
+
+.rightArticles:last-child{
+	padding-top: 18px;
+	border: none;
+}
+
+#cam{
+	margin-top: 30px;
+}
+
+#cam h6{
+	text-align: center;
+	font-family: tahoma;
+	font-weight: bold;
+	color: #6a7883;
+}
+
+#cam img{
+	padding-left: 30px;
+	opacity: 0.4;
+}
+
+#cam a:hover>img{
+	opacity: 1;
+}
+
+#cam a:hover{
+	text-decoration: none;
+}
+
+#thirdRow{
+	margin-top: 10px;
+}
+
+#astrJournal{
+	text-align: center;
+	background: transparent;
+}
+
+#astrJournal a{
+	background: transparent;
+}
+
+/*css for carousel slider*/
+.carousel-inner .active.left{ 
+	left: -33%; 
+}
+.carousel-inner .next{
+	left:  33%;
+}
+.carousel-inner .prev{ 
+	left: -33%; 
+}
+.carousel-control.left,.carousel-control.right{
+	background-image:none;
+}
+
+.pad{
+	max-width: 230px;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+#myCarousel{
+	width: 94%;
+	margin-left: 23px;
+}
+
+#myCarousel a{
+	width: 5%;
+	background-repeat: no-repeat;
+	background-position: 0px;
+}
+
+#carouselInner{
+	padding-left: 8px;
+	padding-bottom: 5px;
+}
+
+.con{
+	margin-top: 5px;
+	margin-bottom: 11px !important;
+	padding-bottom: 5px !important;
+}
+
+#leftArrowSlide{
+	background-image: url("../images/icons/leftArrowSlide.png");
+	margin-left: -20px;
+}
+
+#rightArrowSlide{
+	background-image: url("../images/icons/rightArrowSlide.png");
+	margin-right: -40px;
+}
+
+#leftArrowShadow{
+	position: absolute;
+	top: 0px;
+}
+
+#rightArrowShadow{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+.imgContainer{
+	position: relative;
+	display: inline-block;
+	-webkit-transition: all 500ms ease-out;
+	-moz-transition: all 500ms ease-out;
+	-o-transition: all 500ms ease-out;
+	transition: all 500ms ease-out;
+}
+
+.hoverImg{
+	position: absolute;
+	left: 2px;
+	display: block;
+	top:0;
+	padding-top: 2px;
+	opacity: 0;
+	-webkit-transition: all 500ms ease-out;
+	-moz-transition: all 500ms ease-out;
+	-o-transition: all 500ms ease-out;
+	transition: all 500ms ease-out;
+}
+
+.hoverImg:hover{
+	opacity: 0.6;
+}
+
+.imgContainer:hover {
+   -webkit-filter: grayscale(100%);  
+    -webkit-filter: grayscale(1);  
+    filter: grayscale(100%);  
+  	filter: url('../images/icons/gray.svg#grayscale');  
+    filter: gray;
+}
+
+/*end of css for carousel slider*/
+
+
+/*FOOTER*/
+
+.divider{
+	background-image: url("../images/icons/navBorder.png");
+	background-repeat: repeat-x;
+	height: 2px;
+}
+
+#fourthRow{
+	margin-top: 20px;
+}
+
+.footerContent{
+	background: url("../images/icons/footerBg.png") no-repeat;
+	color: #fff;
+	height: 210px;
+	margin: 0 auto;
+	max-width: 1400px;
+}
+
+.up{
+	opacity: 0.4;
+	-webkit-transition: all 500ms ease-out;
+	-moz-transition: all 500ms ease-out;
+	-o-transition: all 500ms ease-out;
+	transition: all 500ms ease-out;
+
+}
+
+.up:hover{
+	opacity: 0.8;
+}
+
+.title{
+	font-family: "corbel";
+	font-weight: bold;
+	border-bottom: 2px groove #58646d;
+	width: 100px;
+	color: #58646d;
+}
+
+.footerContent a{
+	text-decoration: none;
+}
+
+.footerContent a:hover{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.links{
+	margin-top: 10px;
+}
+
+.links span{
+	line-height: 0.5;
+	font-family: "tahoma";
+	font-size:12px;
+	color: #434c53;
+}
+
+.links a{
+	display: block;
+}
+
+#footerLinks span{
+	padding-left: 10px;
+}
+
+#follow{
+	line-height: 1.2;
+}
+
+#inputEmail{
+	opacity: 0.2;
+	box-shadow: -2px 2px 10px #000 inset;
+	border: #000;
+}
+
+#inputEmail:focus{
+	box-shadow: none;
+}
+
+#submitButton{
+	float: right;
+	text-shadow: -1px 1px 1px rgba(2, 2, 2, 1);
+	opacity: 0.5;
+	border-color: #688093;
+	color: #697782; 
+	background: -webkit-linear-gradient(#6a7883, #454f56); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#6a7883, #454f56); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#6a7883, #454f56); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#6a7883, #454f56); /* Standard syntax (must be last)*/
+}
+
+#submitButton:hover{
+	background: -webkit-linear-gradient(#454f56,#6a7883); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#454f56,#6a7883); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#454f56,#6a7883); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#454f56,#6a7883); /* Standard syntax (must be last)*/ 
+}
+
+#submitButton:active{
+	background: -webkit-linear-gradient(#6a7883, #454f56); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#6a7883, #454f56); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#6a7883, #454f56); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#6a7883, #454f56); /* Standard syntax (must be last)*/ 
+}
+
+#rights{
+	font-family: "tahoma";
+	font-size: 10px;
+	color: #434c53;
+}
+
+#rights p:first-child{
+	margin-bottom: 0px;
+	margin-top: 10px;
+}
+
+#rights p:last-child{
+	margin-left: -20px;
+	margin-bottom: -5px;
+}

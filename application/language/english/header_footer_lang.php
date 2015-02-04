@@ -1,0 +1,20 @@
+<?php  defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['title'] = 'NAO Rozhen';
+$lang['title_header'] = 'national astronomy observatory - rozhen';
+$lang['home'] = 'home';
+$lang['news'] = 'news';
+$lang['observatory'] = 'observatory';
+$lang['institute'] = 'institute';
+$lang['astro_calendar'] = 'astro-calendar';
+$lang['gallery'] = 'gallery';
+$lang['contacts'] = 'contacts';
+$lang['site_map'] = 'site map';
+$lang['follow_us'] = 'follow us';
+$lang['links'] = 'links';
+$lang['subscribe'] = 'subscribe';
+$lang['astro'] = 'astro';
+$lang['meteo'] = 'meteo';
+$lang['submit'] = 'submit';
+$lang['last_modified'] = 'Last Actualization: 09 January 2015';
+$lang['copyright'] = '2008-2015 NAO-Rozhen.';

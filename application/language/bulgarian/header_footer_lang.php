@@ -1,0 +1,20 @@
+<?php  defined('BASEPATH') OR exit('No direct script access allowed');
+
+$lang['title'] = 'НАО Рожен';
+$lang['title_header'] = 'национална астрономическа обсерватория - рожен';
+$lang['home'] = 'начало';
+$lang['news'] = 'новини';
+$lang['observatory'] = 'обсерваторията';
+$lang['institute'] = 'институт';
+$lang['astro_calendar'] = 'астро-календар';
+$lang['gallery'] = 'галерия';
+$lang['contacts'] = 'контакти';
+$lang['site_map'] = 'карта на сайта';
+$lang['follow_us'] = 'следвайте ни';
+$lang['links'] = 'връзки';
+$lang['subscribe'] = 'абонирай се за нас';
+$lang['astro'] = 'астро';
+$lang['meteo'] = 'метео';
+$lang['submit'] = 'изпрати';
+$lang['last_modified'] = 'Последна aктуализация: 09 януари 2015';
+$lang['copyright'] = '2008-2015 НАО-Рожен';

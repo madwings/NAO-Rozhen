@@ -34,7 +34,7 @@
 					<div class="row" id="NAOHeader">
 						<div class="col-lg-8 col-lg-offset-2">
 							<p class="text-uppercase text-center" id="NAOHeaderTitle">
-							национална астрономическа обсерватория - рожен</p>
+							<?php echo lang('title_header'); ?></p>
 						</div>
 						<div id="clocks" class="col-lg-2">
 							<div class="col-lg-6">
@@ -69,13 +69,13 @@
 									</div>
 									<div class="collapse navbar-collapse" id="navigation">
 										<ul class="nav navbar-nav ">
-											<li><a href="#">начало</a></li>
-											<li><a href="#">новини</a></li>
-											<li><a href="#">обсерваторията</a></li>
-											<li><a href="#">институт</a></li>
-											<li><a href="#">астро-календар</a></li>
-											<li><a href="#">галерии</a></li>
-											<li><a href="#">контакти</a></li>
+											<li><a href="#"><?php echo lang('home'); ?></a></li>
+											<li><a href="#"><?php echo lang('news'); ?></a></li>
+											<li><a href="#"><?php echo lang('observatory'); ?></a></li>
+											<li><a href="#"><?php echo lang('institute'); ?></a></li>
+											<li><a href="#"><?php echo lang('astro_calendar'); ?></a></li>
+											<li><a href="#"><?php echo lang('gallery'); ?></a></li>
+											<li><a href="#"><?php echo lang('contacts'); ?></a></li>
 										</ul>
 									</div>
 								</div>

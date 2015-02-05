@@ -21,7 +21,6 @@ body{
 	padding-left: 19px;
 }
 
-
 #anchors a{
 	font-size: 14px;
 	font-weight: bold;
@@ -377,18 +376,17 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 #cam{
+	text-align: center;
 	margin-top: 30px;
 }
 
 #cam h6{
-	text-align: center;
 	font-family: tahoma;
 	font-weight: bold;
 	color: #6a7883;
 }
 
 #cam img{
-	padding-left: 30px;
 	opacity: 0.4;
 }
 
@@ -603,20 +601,20 @@ How to justify navbar-nav in Bootstrap 3
 	opacity: 0.8;
 	border-color: #688093;
 	color: #697782; 
-    background: linear-gradient(#6a7883, #454f56); /* Standard syntax (must be last)*/
+    background: linear-gradient(#6a7883, #454f56); 
 }
 
 #submitButton:hover{
-    background: linear-gradient(#454f56,#6a7883); /* Standard syntax (must be last)*/ 
+    background: linear-gradient(#454f56,#6a7883); 
 }
 
 #submitButton:active{
-    background: linear-gradient(#6a7883, #454f56); /* Standard syntax (must be last)*/ 
+    background: linear-gradient(#6a7883, #454f56); 
 }
 
 #rights{
 	font-family: "tahoma";
-	font-size: 10px;
+	font-size: 11px;
 	color: #434c53;
 }
 

@@ -14,6 +14,7 @@ class Main extends CI_Controller {
 	public function index() {
 		$this->lang->load('header_footer', $this->language);
 		$this->lang->load('home', $this->language);
+		$this->lang->load('sidebars', $this->language);
 		$this->load->view('site/header');
 		$this->load->view('site/home');
 		$this->load->view('site/footer');

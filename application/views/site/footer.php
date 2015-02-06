@@ -67,7 +67,7 @@
 						<div class="links">
 						<form>
 							<div class="form-group">
-							  <input type="email" class="form-control" id="inputEmail" placeholder="Enter email">
+							  <input type="email" class="form-control" id="inputEmail" placeholder="<?php echo lang('email_text'); ?>">
 							</div>
 							<button type="submit" id="submitButton" class="btn btn-default text-right"><?php echo lang('submit'); ?></button>
 						</form>

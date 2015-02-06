@@ -21,7 +21,6 @@ body{
 	padding-left: 19px;
 }
 
-
 #anchors a{
 	font-size: 14px;
 	font-weight: bold;
@@ -186,6 +185,7 @@ How to justify navbar-nav in Bootstrap 3
 
 
 #weatherBar{
+	text-align: center;
 	padding-left: 0px;
 	padding-right: 0px;
 	width: 180px;
@@ -199,7 +199,6 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 #weatherBar img{
-	padding-left: 40px;
 	padding-top: 10px;
 }
 
@@ -373,18 +372,17 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 #cam{
+	text-align: center;
 	margin-top: 30px;
 }
 
 #cam h6{
-	text-align: center;
 	font-family: tahoma;
 	font-weight: bold;
 	color: #6a7883;
 }
 
 #cam img{
-	padding-left: 30px;
 	opacity: 0.4;
 }
 
@@ -525,7 +523,6 @@ footer{
 
 #fourthRow{
 	margin-top: 20px;
-	text-transform: capitalize;
 }
 
 .footerContent{
@@ -590,7 +587,7 @@ footer{
 }
 
 #inputEmail{
-	opacity: 0.2;
+	opacity: 0.4;
 	box-shadow: -2px 2px 10px #000 inset;
 	border: #000;
 }
@@ -600,34 +597,30 @@ footer{
 }
 
 #submitButton{
-	float: right;
+	width: 100%;
+	text-transform: uppercase;
 	text-shadow: -1px 1px 1px rgba(2, 2, 2, 1);
-	opacity: 0.5;
+	opacity: 0.8;
 	border-color: #688093;
 	color: #697782; 
-	background: -webkit-linear-gradient(#6a7883, #454f56); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#6a7883, #454f56); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#6a7883, #454f56); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#6a7883, #454f56); /* Standard syntax (must be last)*/
+    background: linear-gradient(#6a7883, #454f56); 
 }
 
 #submitButton:hover{
-	background: -webkit-linear-gradient(#454f56,#6a7883); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#454f56,#6a7883); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#454f56,#6a7883); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#454f56,#6a7883); /* Standard syntax (must be last)*/ 
+    background: linear-gradient(#454f56,#6a7883); 
 }
 
 #submitButton:active{
-	background: -webkit-linear-gradient(#6a7883, #454f56); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#6a7883, #454f56); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#6a7883, #454f56); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(#6a7883, #454f56); /* Standard syntax (must be last)*/ 
+    background: linear-gradient(#6a7883, #454f56); 
 }
 
 #rights{
 	font-family: "tahoma";
+<<<<<<< HEAD
 	font-size: 12px;
+=======
+	font-size: 11px;
+>>>>>>> 34d365aeca238928333d11e883a86c82b682d799
 	color: #434c53;
 	text-align: center;
 	float: none;
@@ -638,3 +631,10 @@ footer{
 	margin-bottom: 0px;
 }
 
+<<<<<<< HEAD
+=======
+#rights p:last-child{
+	margin-left: -20px;
+	margin-bottom: -5px;
+}
+>>>>>>> 34d365aeca238928333d11e883a86c82b682d799

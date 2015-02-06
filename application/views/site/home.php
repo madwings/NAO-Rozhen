@@ -3,7 +3,9 @@
 		<div class="container">
 			<div class="row" id="firstRowContent">
 				<div class="col-lg-2">
-					<a href=""><img id="banIcon" src="assets/images/icons/banIcon.png" alt="banIcon" class="img-responsive"></a>
+					<a href="http://www.bas.bg/" target="_blank">
+						<img id="banIcon" src="<?php echo lang('bas_logo'); ?>" alt="banIcon" class="img-responsive">
+					</a>
 				</div>
 				<div class="col-lg-8" id="iconContainer" >
 				<!--ICON NAVIGATION-->
@@ -44,19 +46,19 @@
 									<li>
 										<a href="#">
 											<img class="astroIcon" src="assets/images/icons/planets.png" alt="planets">
-											<span class="astroMenuText">съединения на планети</span>
+											<span class="astroMenuText"><?php echo lang('planets_ascension'); ?></span>
 										</a>
 									</li>
 									<li>
 										<a href="#">
 											<img class="astroIcon" src="assets/images/icons/meteors.png" alt="meteors">
-											<span class="astroMenuText">метеорни потоци</span>
+											<span class="astroMenuText"><?php echo lang('meteor_streams'); ?></span>
 										</a>
 									</li>
 									<li>
 										<a href="#">
 											<img class="astroIcon" src="assets/images/icons/eclipses.png" alt="eclipses">
-											<span class="astroMenuText">слънчеви и лунни затъмнения</span>
+											<span class="astroMenuText"><?php echo lang('sun_moon_eclipses'); ?></span>
 										</a>
 									</li>
 								</ul>
@@ -65,10 +67,8 @@
 					</nav><!--END OF NAVIGATION-->			
 				</div>
 				<div class="col-lg-2" id="weatherBar">
-					
-						<span class="text-uppercase">времето в района на нао</span>
-						<a href="#"><img src="assets/images/icons/weather.png" alt="weather"></a>
-					
+					<span class="text-uppercase"><?php echo lang('weather_title'); ?></span>
+					<a href="#"><img src="assets/images/icons/weather.png" alt="weather"></a>
 				</div>
 			</div>
 		
@@ -85,13 +85,41 @@
 		
 			<div class="row">
 				<aside class="col-lg-2" id="partners">
-					<span class="text-uppercase text-center" id="partnersHeader">наши партньори</span>
-					<a href="#"><div class="leftIcons"><img src="assets/images/icons/iconSmolyan.png" alt="iconSmolyan"><p class="text-uppercase text-center">община смолян</p></div></a>
-					<a href="#"><div class="leftIcons"><img src="assets/images/icons/iconChepelare.png" alt="iconChepelare"><p class="text-uppercase text-center">община чепеларе</p></div></a>
-					<a href="#"><div class="leftIcons"><img src="assets/images/icons/sab.png" alt="sab"><p class="text-uppercase text-center">саб</p></div></a>
-					<a href="#"><div class="leftIcons"><img src="assets/images/icons/niggg.png" alt="niggg"><p class="text-uppercase text-center">нигг</p></div></a>
-					<a href="#"><div class="leftIcons"><img src="assets/images/icons/nimh.png" alt="nimh"><p class="text-uppercase text-center">нимх</p></div></a>
-					<a href="#"><div class="leftIcons"><img src="assets/images/icons/mosb.png" alt="mosb"><p class="text-uppercase text-center">мосб</p></div></a>
+					<span class="text-uppercase text-center" id="partnersHeader"><?php echo lang('partners'); ?></span>
+					<a href="http://www.smolyan.bg/" target="_blank">
+						<div class="leftIcons">
+							<img src="assets/images/icons/iconSmolyan.png" alt="iconSmolyan">
+							<p class="text-uppercase text-center"><?php echo lang('smolyan'); ?></p>
+						</div>
+					</a>
+					<a href="http://chepelare.org/" target="_blank">
+						<div class="leftIcons">
+							<img src="assets/images/icons/iconChepelare.png" alt="iconChepelare">
+							<p class="text-uppercase text-center"><?php echo lang('chepelare'); ?></p>
+						</div>
+					</a>
+					<a href="http://astro.shu-bg.net/sab/" target="_blank">
+						<div class="leftIcons"><img src="assets/images/icons/sab.png" alt="sab">
+							<p class="text-uppercase text-center"><?php echo lang('bau'); ?></p>
+						</div>
+					</a>
+					<a href="http://www.niggg.bas.bg/" target="_blank">
+						<div class="leftIcons"><img src="assets/images/icons/niggg.png" alt="niggg">
+							<p class="text-uppercase text-center"><?php echo lang('niggg'); ?></p>
+						</div>
+					</a>
+					<a href="http://www.meteo.bg/" target="_blank">
+						<div class="leftIcons">
+							<img src="assets/images/icons/nimh.png" alt="nimh">
+							<p class="text-uppercase text-center"><?php echo lang('nimh'); ?></p>
+						</div>
+					</a>
+					<a href="http://www.moew.government.bg/" target="_blank">
+						<div class="leftIcons">
+							<img src="assets/images/icons/mosb.png" alt="mosb">
+							<p class="text-uppercase text-center"><?php echo lang('moew'); ?></p>
+						</div>
+					</a>
 				</aside><!--End of our partners-->
 				<section class="col-lg-8" id="sectionArticles">
 					<div class="col-lg-6">
@@ -155,7 +183,7 @@
 							<div class="list-group">
 								<a href="#" class="list-group-item">
 									<div class="rightItemText">
-										<h6 class="rightArticleHeader text-uppercase">актуална астроснимка</h6>
+										<h6 class="rightArticleHeader text-uppercase"><?php echo lang('current_astro_photo'); ?></h6>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. exercitation ullamco
 										</p>
 									</div>
@@ -168,7 +196,7 @@
 							<div class="list-group">
 								<a href="#" class="list-group-item">
 									<div class="rightItemText">
-										<h6 class="rightArticleHeader text-uppercase">атмосферни явления</h6>
+										<h6 class="rightArticleHeader text-uppercase"><?php echo lang('weather_phenomena'); ?></h6>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. exercitation ullamco
 										</p>
 									</div>
@@ -183,7 +211,7 @@
 					<img src="assets/images/icons/calendar.png" alt="calendar">
 					<div id="cam">
 						<a href="#">
-							<h6 class="text-uppercase" >уеб-камера от кулата на 2м ркк-телескоп</h6>
+							<h6 class="text-uppercase" ><?php echo lang('rcc'); ?></h6>
 							<img src="assets/images/icons/cam.png" alt="cam">
 						</a>
 					</div>
@@ -191,7 +219,7 @@
 			</div><!--End of row-->
 			<div class="row" id="thirdRow">
 				<div class="col-lg-2" id="astrJournal">
-					<a href="#">
+					<a href="http://www.astro.bas.bg/AIJ/" target="_blank">
 						<img class="boxShadow" src="assets/images/icons/astrJournal.png" alt="astrJournal" >
 					</a>
 				</div>

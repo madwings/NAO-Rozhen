@@ -71,10 +71,9 @@
 					<a href="#"><img src="assets/images/icons/weather.png" alt="weather"></a>
 				</div>
 			</div>
-		</div>
-		<div class="container">
+		
 			<div class="row" id="secondRow">
-				<div class="col-lg-8 col-lg-offset-2" id="impMssg">
+				<div class="col-lg-8 " id="impMssg">
 					<div class="panel panel-default" id="panel">
 						<div class="panel-body" id="panelBody">ВАЖНО! Следващият наблюдателен сезон 2015B e от 1.08.2015 до 31.01.2016 г. Крайният срок за подаване на заявки е 20 март 2015 до 23:59:59 UTC. Новата форма за заявки може да бъде изтеглена от тук (DOC 53 KB). Моля изпращайте попълнените заявки в срок на електронна поща observations@astro.bas.bg като един PDF файл за всеки телескоп и фокус, съдържащ в името си: PI на заявителя, сезона, телескопа и фокуса, за които се отнася заявката! (Пример: GBorisov-2014B-2mFR.pdf</div>
 					</div>
@@ -83,8 +82,7 @@
 					<a href="#"><img src="assets/images/icons/weather2.png" alt="weather"></a>
 				</div>
 			</div>
-		</div>
-		<div class="container">
+		
 			<div class="row">
 				<aside class="col-lg-2" id="partners">
 					<span class="text-uppercase text-center" id="partnersHeader"><?php echo lang('partners'); ?></span>

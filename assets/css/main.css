@@ -107,10 +107,6 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 
-#banIcon{
-	padding-top: 20px;
-}
-
 #panel{
 	background-color: rgba(106, 120, 131, 0.1);
 	color:#5f666b;
@@ -142,7 +138,7 @@ How to justify navbar-nav in Bootstrap 3
 #iconNavigation li{
 	width: 125px;
 	height: 75px;
-	border-left: 2px groove;
+	border-left: 2px groove #ffffff;
 	background-image: url("../images/icons/shadow.png");
 	background-repeat: no-repeat;
 }
@@ -184,7 +180,7 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 #iconNavigation li:last-child{
-	border-right: 2px groove;
+	border-right: 2px groove #ffffff;
 }
 
 
@@ -192,7 +188,7 @@ How to justify navbar-nav in Bootstrap 3
 	text-align: center;
 	padding-left: 0px;
 	padding-right: 0px;
-	width: 160px;
+	width: 180px;
 	border-bottom: 2px ridge #dbddde;
 	padding-bottom: 10px;
 }
@@ -207,7 +203,7 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 #secondRow{
-	margin-top: -45px;
+	margin-top: -25px;
 }
 
 #impMssg{
@@ -513,6 +509,12 @@ How to justify navbar-nav in Bootstrap 3
 
 /*FOOTER*/
 
+footer{
+	background: url("../images/icons/starsbg.png") left repeat;
+	width: 100%;
+	
+}
+
 .divider{
 	background-image: url("../images/icons/navBorder.png");
 	background-repeat: repeat-x;
@@ -614,16 +616,25 @@ How to justify navbar-nav in Bootstrap 3
 
 #rights{
 	font-family: "tahoma";
+<<<<<<< HEAD
+	font-size: 12px;
+=======
 	font-size: 11px;
+>>>>>>> 34d365aeca238928333d11e883a86c82b682d799
 	color: #434c53;
+	text-align: center;
+	float: none;
+	margin: 0 auto;
 }
 
-#rights p:first-child{
+#rights p{
 	margin-bottom: 0px;
-	margin-top: 10px;
 }
 
+<<<<<<< HEAD
+=======
 #rights p:last-child{
 	margin-left: -20px;
 	margin-bottom: -5px;
 }
+>>>>>>> 34d365aeca238928333d11e883a86c82b682d799

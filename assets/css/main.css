@@ -616,11 +616,7 @@ footer{
 
 #rights{
 	font-family: "tahoma";
-<<<<<<< HEAD
 	font-size: 12px;
-=======
-	font-size: 11px;
->>>>>>> 34d365aeca238928333d11e883a86c82b682d799
 	color: #434c53;
 	text-align: center;
 	float: none;
@@ -631,10 +627,3 @@ footer{
 	margin-bottom: 0px;
 }
 
-<<<<<<< HEAD
-=======
-#rights p:last-child{
-	margin-left: -20px;
-	margin-bottom: -5px;
-}
->>>>>>> 34d365aeca238928333d11e883a86c82b682d799

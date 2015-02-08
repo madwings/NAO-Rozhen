@@ -1,5 +1,5 @@
 body{
-	background-image: url("../images/icons/texturetastic.png");
+	background-image: url("../images/icons/starrysky.png");
     background-repeat: repeat; 
 }
 
@@ -8,12 +8,23 @@ body{
 
 }
 
+header {
+	position: relative;
+	background: url("../images/icons/starsbg.png") repeat;
+}
+
 .headerContent {
-    background: url("../images/icons/headerImg.png") no-repeat;
+    background: url("../images/icons/header.png") no-repeat;
     color:#fff;
     height: 230px;
     margin: 0 auto;
     max-width: 1400px;
+}
+
+#nav-container {
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
 }
 
 #anchors{
@@ -78,6 +89,8 @@ How to justify navbar-nav in Bootstrap 3
 	min-height: 40px;
 	background-color: rgba(67, 76, 83, 0.1);
 	margin-bottom: 0px;
+	/*height: 40px;
+	background: linear-gradient( to right, rgba(255,255,255, 0.0), rgba(255,255,255, 0.8), rgba(255,255,255, 0.0));*/
 }
 
 #navigation {
@@ -509,13 +522,11 @@ How to justify navbar-nav in Bootstrap 3
 
 /*FOOTER*/
 
-footer{
-	background: url("../images/icons/starsbg.png") left repeat;
-	width: 100%;
-	
+footer {
+	background: url("../images/icons/starsbg.png") repeat;
 }
 
-.divider{
+.divider {
 	background-image: url("../images/icons/navBorder.png");
 	background-repeat: repeat-x;
 	height: 2px;
@@ -535,11 +546,7 @@ footer{
 
 .up{
 	opacity: 0.4;
-	-webkit-transition: all 500ms ease-out;
-	-moz-transition: all 500ms ease-out;
-	-o-transition: all 500ms ease-out;
 	transition: all 500ms ease-out;
-
 }
 
 .up:hover{
@@ -619,11 +626,8 @@ footer{
 	font-size: 12px;
 	color: #434c53;
 	text-align: center;
-	float: none;
-	margin: 0 auto;
 }
 
 #rights p{
 	margin-bottom: 0px;
 }
-

@@ -2,14 +2,32 @@
 
 class Main extends CI_Controller {
 	
+	/**
+	 * Site's view language
+	 *
+	 * Used for loading language files
+	 *
+	 * @var	string
+	 */
 	private $language;
 	
+	// --------------------------------------------------------------------
+
+	/**
+	 * Class constructor
+	 *
+	 * @return	void
+	 */
 	public function __construct() {
 		parent::__construct();
 		$this->_language_detect();
 	}
 	/**
 	 * Index Page for this controller.
+	 *
+	 * Main processing function, acting as a router to all subpages.
+	 *
+	 * @return void
 	 */
 	public function index() {
 		$this->lang->load('header_footer', $this->language);
@@ -20,6 +38,16 @@ class Main extends CI_Controller {
 		$this->load->view('site/footer');
 	}
 	
+	// --------------------------------------------------------------------
+
+	/**
+	 * Detects user's language
+	 *
+	 * Tries to detect user's language, based on cookie previously set or
+	 * borwser's accepted languages. If none is satisfied it defaults to english.
+	 *
+	 * @return	void
+	 */
 	private function _language_detect() {
 		$headers_all = getallheaders();
 		if ( ! empty($_COOKIE['site_lang'])) {
@@ -31,6 +59,16 @@ class Main extends CI_Controller {
 		}
 	}
 	
+	// --------------------------------------------------------------------
+
+	/**
+	 * Switch site's view languge
+	 *
+	 * Accepts an language string and applies is it as default view language.
+	 *
+	 * @param	string	$language
+	 * @return	void
+	 */
 	public function language_switch($language = NULL) {
 		$language = $language !== NULL ? $language : 'english';
 		// Set language cookie to last for an year from now

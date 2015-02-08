@@ -1,4 +1,4 @@
-<!-- FOOTER of the Page -->
+	<!-- FOOTER of the Page -->
 	<footer>
 	<div class="divider"></div>
 		<div class="footerContent">
@@ -78,7 +78,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-lg-3" id="rights">
+					<div id="rights">
 						<p><?php echo lang('last_modified'); ?></p>
 						<p><?php echo lang('copyright'); ?></p>
 					</div>

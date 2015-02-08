@@ -59,7 +59,7 @@
 							<div class="col-lg-10 col-lg-offset-1">
 								<div class="navbar-header">
 								<!--button for responsive navigation -->
-									<button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#navigation">BUTTON
+									<button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#iconNavigation">BUTTON
 										<span class="sr-only">Toggle navigation</span>
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
@@ -68,7 +68,7 @@
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
 										<span class="icon-bar"></span>
-									</button>
+								</button>
 								</div>
 								<div class="collapse navbar-collapse" id="navigation">
 									<ul class="nav navbar-nav ">

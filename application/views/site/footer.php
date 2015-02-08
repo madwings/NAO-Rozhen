@@ -78,7 +78,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<div id="rights">
+					<div class="text-center" id="rights">
 						<p><?php echo lang('last_modified'); ?></p>
 						<p><?php echo lang('copyright'); ?></p>
 					</div>

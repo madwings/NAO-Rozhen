@@ -27,6 +27,11 @@ header {
 	bottom: 0px;
 }
 
+#container{
+	padding-right: 0px ; 
+	padding-left: 0px ; 
+}
+
 #anchors{
 	margin-top: 10px;
 	padding-left: 19px;
@@ -120,11 +125,23 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 
+#impMssg{
+	width: 770px;
+	margin-top: 30px;
+	height: 85px;
+	background-image: url("../images/icons/importantMssgShadow.png");
+	background-repeat: no-repeat;
+	background-position: 0px 70px;
+}
+
+
 #panel{
 	background-color: rgba(106, 120, 131, 0.1);
 	color:#5f666b;
 	font-size: 14px;
-	font-family: "corbel"
+	font-family: "corbel";
+
+	
 }
 
 #panelBody{
@@ -197,33 +214,43 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 
-#weatherBar{
+#rightAside{
 	text-align: center;
-	padding-left: 0px;
-	padding-right: 0px;
 	width: 180px;
+	
+}
+
+#weatherReg{
 	border-bottom: 2px ridge #dbddde;
 	padding-bottom: 10px;
 }
 
-#weatherBar span{
+#rightAside span{
 	font-size: 12px;
 	font-family: "Tahoma";
 }
 
-#weatherBar img{
-	padding-top: 10px;
+#pragmaticLogo{
+	display: block;
+	float: none;
+	margin: 0 auto;
+	margin-bottom: 35px;
+	padding-top: 0px !important;
 }
 
-#secondRow{
-	margin-top: -25px;
+
+#rightAside img{
+	padding-top: 30px;
 }
 
-#impMssg{
-	background-image: url("../images/icons/importantMssgShadow.png");
-	background-repeat: no-repeat;
-	background-position: 0px 70px;
-	padding-left: 10px;
+
+#leftAside{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#banIcon{
+	margin: 0 auto;
 }
 
 .leftIcons{
@@ -248,6 +275,7 @@ How to justify navbar-nav in Bootstrap 3
 #partners{
 	padding-left: 0px;
 	padding-right: 0px;
+	margin-top: 60px;
 }
 
 #partners p{
@@ -264,6 +292,8 @@ How to justify navbar-nav in Bootstrap 3
 	background-position: 380px 0px;
 	padding-left: 0px;
 	padding-right: 0px;
+	height: 300px;
+	margin-top: 15px;
 }
 
 .leftArticles{
@@ -387,6 +417,8 @@ How to justify navbar-nav in Bootstrap 3
 #cam{
 	text-align: center;
 	margin-top: 30px;
+	width: 165px;
+	margin-bottom: 18px;
 }
 
 #cam h6{
@@ -396,6 +428,7 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 #cam img{
+	padding-top: 20px;
 	opacity: 0.4;
 }
 
@@ -407,11 +440,10 @@ How to justify navbar-nav in Bootstrap 3
 	text-decoration: none;
 }
 
-#thirdRow{
-	margin-top: 10px;
-}
+
 
 #astrJournal{
+	margin-top: 15px;
 	text-align: center;
 	background: transparent;
 }
@@ -441,8 +473,9 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 #myCarousel{
-	width: 94%;
-	margin-left: 23px;
+	width: 755px;
+	margin-left: 25px;
+	margin-top: 60px;
 }
 
 #myCarousel a{
@@ -452,8 +485,9 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 #carouselInner{
-	padding-left: 8px;
 	padding-bottom: 5px;
+	width: 690px;
+	margin-left: 27px;
 }
 
 .con{
@@ -464,23 +498,24 @@ How to justify navbar-nav in Bootstrap 3
 
 #leftArrowSlide{
 	background-image: url("../images/icons/leftArrowSlide.png");
-	margin-left: -20px;
+	margin-left: -4px;
 }
 
 #rightArrowSlide{
 	background-image: url("../images/icons/rightArrowSlide.png");
-	margin-right: -40px;
+	margin-right: -15px;
 }
 
 #leftArrowShadow{
 	position: absolute;
-	top: 0px;
+	top: 3px;
+	left: 20px;
 }
 
 #rightArrowShadow{
 	position: absolute;
-	top: 0px;
-	right: 0px;
+	top: 3px;
+	right: 30px;
 }
 
 .imgContainer{
@@ -625,7 +660,8 @@ footer {
 	font-family: "tahoma";
 	font-size: 12px;
 	color: #434c53;
-	text-align: center;
+	float: none;
+	margin: 0 auto;
 }
 
 #rights p{

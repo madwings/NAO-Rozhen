@@ -2,63 +2,12 @@
 	<div id="content">
 		<div class="container" id="container">
 			<div class="row" id="firstRowContent">
-				
-				<aside class="col-lg-2" id="leftAside">
-					<a href="http://www.bas.bg/" target="_blank">
-						<img id="banIcon" src="<?php echo lang('bas_logo'); ?>" alt="banIcon" class="img-responsive">
-					</a>
-					<div id="partners">	
-						<span class="text-uppercase text-center" id="partnersHeader"><?php echo lang('partners'); ?></span>
-						<a href="http://www.smolyan.bg/" target="_blank">
-							<div class="leftIcons">
-								<img src="assets/images/icons/iconSmolyan.png" alt="Smolyan">
-								<p class="text-uppercase text-center"><?php echo lang('smolyan'); ?></p>
-							</div>
-						</a>
-						<a href="http://chepelare.org/" target="_blank">
-							<div class="leftIcons">
-								<img src="assets/images/icons/icon-chepelare.png" alt="Chepelare">
-								<p class="text-uppercase text-center"><?php echo lang('chepelare'); ?></p>
-							</div>
-						</a>
-						<a href="http://astro.shu-bg.net/sab/" target="_blank">
-							<div class="leftIcons"><img src="assets/images/icons/sab.png" alt="sab">
-								<p class="text-uppercase text-center"><?php echo lang('bau'); ?></p>
-							</div>
-						</a>
-						<a href="http://www.niggg.bas.bg/" target="_blank">
-							<div class="leftIcons"><img src="assets/images/icons/niggg.png" alt="niggg">
-								<p class="text-uppercase text-center"><?php echo lang('niggg'); ?></p>
-							</div>
-						</a>
-						<a href="http://www.meteo.bg/" target="_blank">
-							<div class="leftIcons">
-								<img src="assets/images/icons/nimh.png" alt="nimh">
-								<p class="text-uppercase text-center"><?php echo lang('nimh'); ?></p>
-							</div>
-						</a>
-						<a href="http://www.moew.government.bg/" target="_blank">
-							<div class="leftIcons">
-								<img src="assets/images/icons/moew.png" alt="mosb">
-								<p class="text-uppercase text-center"><?php echo lang('moew'); ?></p>
-							</div>
-						</a>
-					</div>
-
-					<!--Astro Journal-->
-					<div id="astrJournal">
-						<a href="http://www.astro.bas.bg/AIJ/" target="_blank">
-							<img class="boxShadow" src="assets/images/icons/astrJournal.png" alt="astrJournal" >
-						</a>
-					</div>
-
-				</aside><!--End of our partners-->
-				
+				<?php $this->load->view('site/aside_left'); ?>
 				<div class="col-lg-8" id="iconContainer" >
 				<!--Icon Navigation-->
 					<nav class="navbar text-uppercase" role="navigation">
 							<div class="navbar-header">
-							<!--Button for responsive navigation -->
+								<!--Button for responsive navigation -->
 								<button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#iconNavigation">BUTTON
 									<span class="sr-only">Toggle navigation</span>
 									<span class="icon-bar"></span>
@@ -305,27 +254,7 @@
 					</div>
 					<!--End of Carousel Slider-->	
 				</div>
-				<!--Right Aside-->
-				<aside class="col-lg-2" id="rightAside">
-					<a href="http://pragmatic.bg/" target="_blank">
-						<img id="pragmaticLogo" src="assets/images/icons/pragmatic-logo.png" alt="Pragmatic">
-					</a>
-					<span class="text-uppercase"><?php echo lang('weather_title'); ?></span>
-					<div id="weatherReg">
-						<a href="#"><img  src="assets/images/icons/weather.png" alt="Weather"></a>
-					</div>
-					<a href="#"><img src="assets/images/icons/weather2.png" alt="Weather"></a>
-					<div id="cam">
-						<a href="#">
-							<h6 class="text-uppercase" ><?php echo lang('rcc'); ?></h6>
-							<img src="assets/images/icons/cam.png" alt="cam">
-						</a>
-					</div>
-					<a href="#">
-						<img src="assets/images/icons/fb.png" alt="fb" >
-					</a>
-				</aside>
-				<!--End of right Aside-->
+				<?php $this->load->view('site/aside_right'); ?>
 			</div>		
 		</div>
 		<!--End of container-->

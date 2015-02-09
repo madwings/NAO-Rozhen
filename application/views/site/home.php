@@ -11,13 +11,13 @@
 						<span class="text-uppercase text-center" id="partnersHeader"><?php echo lang('partners'); ?></span>
 						<a href="http://www.smolyan.bg/" target="_blank">
 							<div class="leftIcons">
-								<img src="assets/images/icons/iconSmolyan.png" alt="iconSmolyan">
+								<img src="assets/images/icons/iconSmolyan.png" alt="Smolyan">
 								<p class="text-uppercase text-center"><?php echo lang('smolyan'); ?></p>
 							</div>
 						</a>
 						<a href="http://chepelare.org/" target="_blank">
 							<div class="leftIcons">
-								<img src="assets/images/icons/iconChepelare.png" alt="iconChepelare">
+								<img src="assets/images/icons/icon-chepelare.png" alt="Chepelare">
 								<p class="text-uppercase text-center"><?php echo lang('chepelare'); ?></p>
 							</div>
 						</a>
@@ -177,9 +177,10 @@
 									</a>
 								</div>
 							</article>
-						</div><!--End of Left Articles-->
-
-						<div class="col-lg-6"> <!-- Right aricles-->
+						</div>
+						<!--End of Left Articles-->
+						<!-- Right aricles-->
+						<div class="col-lg-6"> 
 							<article class="rightArticles">
 								<div class="list-group">
 									<a href="#" class="list-group-item">
@@ -206,9 +207,10 @@
 									</a>
 								</div>
 							</article>
-						</div><!--End of Right Articles-->
-					</section><!--End of Section with articles-->
-					
+						</div>
+						<!--End of Right Articles-->
+					</section>
+					<!--End of Section with articles-->					
 					<!--Carousel Slider-->
 					<div class="carousel slide" id="myCarousel">
 						<div class="carousel-inner" id="carouselInner">
@@ -283,8 +285,7 @@
 								</div>
 							</div>
 							<div class="item con">
-								<div class="col-md-4 pad">
-									
+								<div class="col-md-4 pad">								
 										<div class="imgContainer boxShadow">
 											<img class="pics img-responsive" src="assets/images/icons/pic15.png" alt="pic15">
 											<div class="hoverImg">
@@ -301,17 +302,19 @@
 						<a class="right carousel-control" id="rightArrowSlide" href="#myCarousel" data-slide="next"></a>
 						<img  id="leftArrowShadow" src="assets/images/icons/leftShadowArrowSlide.png" alt="">
 						<img class="" id="rightArrowShadow" src="assets/images/icons/rightShadowArrowSlide.png" alt="">
-					</div><!--End of Carousel Slider-->	
+					</div>
+					<!--End of Carousel Slider-->	
 				</div>
-
 				<!--Right Aside-->
 				<aside class="col-lg-2" id="rightAside">
-					<a href="#" ><img id="pragmaticLogo" src="assets/images/icons/pragmaticLogo.png" alt="weather"></a>
+					<a href="http://pragmatic.bg/" target="_blank">
+						<img id="pragmaticLogo" src="assets/images/icons/pragmatic-logo.png" alt="Pragmatic">
+					</a>
 					<span class="text-uppercase"><?php echo lang('weather_title'); ?></span>
 					<div id="weatherReg">
-						<a href="#"><img  src="assets/images/icons/weather.png" alt="weather"></a>
+						<a href="#"><img  src="assets/images/icons/weather.png" alt="Weather"></a>
 					</div>
-					<a href="#"><img src="assets/images/icons/weather2.png" alt="weather"></a>
+					<a href="#"><img src="assets/images/icons/weather2.png" alt="Weather"></a>
 					<div id="cam">
 						<a href="#">
 							<h6 class="text-uppercase" ><?php echo lang('rcc'); ?></h6>
@@ -321,8 +324,10 @@
 					<a href="#">
 						<img src="assets/images/icons/fb.png" alt="fb" >
 					</a>
-				</aside><!--End of right Aside-->
-			</div>
-			
-		</div><!--End of container-->
-	</div><!--End of content-->
+				</aside>
+				<!--End of right Aside-->
+			</div>		
+		</div>
+		<!--End of container-->
+	</div>
+	<!--End of content-->

@@ -36,9 +36,9 @@
 				</div>
 				
 				<div class="row" id="NAOHeader">
-					<div class="col-lg-8 col-lg-offset-2">
-						<p class="text-uppercase text-center" id="NAOHeaderTitle">
-						<?php echo lang('title_header'); ?></p>
+					<div class="col-lg-8 col-lg-offset-2 text-center text-uppercase" id="header-title">
+						<p><?php echo lang('title_header_1'); ?></p>
+						<p><?php echo lang('title_header_2'); ?></p>
 					</div>
 					<div id="clocks" class="col-lg-2">
 						<div class="col-lg-6">
@@ -56,7 +56,8 @@
 		</div>
 		<!--NAVIGATION-->
 		<div id='nav-container'>
-			<div  class="navBorderTop"></div>
+			<div class="nav-border-black"></div>
+            <div class="nav-border-white"></div>
 			<nav class="navbar text-uppercase" role="navigation" id="nav">
 				<div class="container" id="navContainer">
 					<div class="row">
@@ -75,7 +76,7 @@
 								</button>
 							</div>
 							<div class="collapse navbar-collapse" id="navigation">
-								<ul class="nav navbar-nav ">
+								<ul class="nav navbar-nav nav-pills">
 									<li><a href="#"><?php echo lang('home'); ?></a></li>
 									<li><a href="#"><?php echo lang('news'); ?></a></li>
 									<li><a href="#"><?php echo lang('observatory'); ?></a></li>
@@ -89,7 +90,8 @@
 					</div>
 				</div>
 			</nav>
-			<div  class="navBorderTop"></div>
+			<div class="nav-border-black"></div>
+            <div class="nav-border-white"></div>
 		</div>
 		<!--END OF NAVIGATION-->
 	</header>

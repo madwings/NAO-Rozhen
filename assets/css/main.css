@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'play-regular';
+	src: url('../fonts/play-regular.ttf');
+}
+
+@font-face {
+	font-family: 'play-bold';
+	src: url('../fonts/play-bold.ttf');
+}
+
 body{
 	background-image: url("../images/icons/starrysky.png");
     background-repeat: repeat; 
@@ -61,11 +71,11 @@ header {
 	margin-bottom: 53px;
 }
 
-#NAOHeaderTitle{
+#header-title{
 	font-size: 25px;
 	color: #a4a2a6;
-	font-family: "GulimChe", sans-serif;
-	font-weight: bold;
+	font-family: play-regular;
+	letter-spacing: 2px;
 }
 
 
@@ -83,19 +93,20 @@ How to justify navbar-nav in Bootstrap 3
 	float:none;
 }*/
 
-.navBorderTop{
-	background-image: url("../images/icons/navBorder.png");
-	background-repeat: repeat-x;
-	height: 2px;
+.nav-border-black {
+	height: 1px;
+	background: linear-gradient( to right, rgba(0,0,0, 0.0), rgba(0,0,0, 0.4), rgba(0,0,0, 0.0));
+}
 
+.nav-border-white {
+	height: 1px;
+	background: linear-gradient( to right, rgba(255,255,255, 0.0), rgba(255,255,255, 1), rgba(255,255,255, 0.0));
 }
 
 #nav{
 	min-height: 40px;
-	background-color: rgba(67, 76, 83, 0.1);
 	margin-bottom: 0px;
-	/*height: 40px;
-	background: linear-gradient( to right, rgba(255,255,255, 0.0), rgba(255,255,255, 0.8), rgba(255,255,255, 0.0));*/
+	background: linear-gradient( to right, rgba(255,255,255, 0.0), rgba(255,255,255, 0.8), rgba(255,255,255, 0.0));
 }
 
 #navigation {
@@ -105,9 +116,8 @@ How to justify navbar-nav in Bootstrap 3
 #navigation a{
 	font-family: "corbel";
 	font-weight: bold;
-	font-size: 15px;
 	color: #434c53;
-	text-shadow: 0px 1px 0px rgba(223, 223, 223, 1);
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 1);
 	padding:10px 15px 10px 15px;
 	opacity: 1;
 }

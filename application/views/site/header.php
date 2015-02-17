@@ -12,10 +12,10 @@
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	
 	<!--JS-->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/bootstrapCarouselSlider.js"></script>
-	<script src="assets/js/main.js"></script>
+	<script src="assets/js/jquery.min.js" defer></script>
+	<script src="assets/js/bootstrap.min.js" defer></script>
+	<script src="assets/js/bootstrapCarouselSlider.js" defer></script>
+	<script src="assets/js/main.js" defer></script>
 	
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>

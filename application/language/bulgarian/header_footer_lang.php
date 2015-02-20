@@ -1,7 +1,8 @@
 <?php  defined('BASEPATH') OR exit('No direct script access allowed');
 
 $lang['title'] = 'НАО Рожен';
-$lang['title_header'] = 'национална астрономическа обсерватория - рожен';
+$lang['title_header_1'] = 'национална астрономическа';
+$lang['title_header_2'] = 'обсерватория - рожен';
 $lang['home'] = 'Начало';
 $lang['news'] = 'Новини';
 $lang['observatory'] = 'Обсерваторията';

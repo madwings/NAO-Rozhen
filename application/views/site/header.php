@@ -58,9 +58,9 @@
 		<div id='nav-container'>
 			<div  class="navBorderTop"></div>
 			<nav class="navbar text-uppercase" role="navigation" id="nav">
-				<div class="container" id="navContainer">
+				<div class="container" >
 					<div class="row">
-						<div class="col-lg-10 col-lg-offset-1">
+						<div class="col-lg-10" id="navContainer">
 							<div class="navbar-header">
 								<!--button for responsive navigation -->
 								<button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#iconNavigation">BUTTON
@@ -75,7 +75,7 @@
 								</button>
 							</div>
 							<div class="collapse navbar-collapse" id="navigation">
-								<ul class="nav navbar-nav ">
+								<ul class="nav nav-pills navbar-nav">
 									<li><a href="#"><?php echo lang('home'); ?></a></li>
 									<li><a href="#"><?php echo lang('news'); ?></a></li>
 									<li><a href="#"><?php echo lang('observatory'); ?></a></li>

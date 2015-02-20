@@ -17,7 +17,7 @@
 						</a>
 						<a href="http://chepelare.org/" target="_blank">
 							<div class="leftIcons">
-								<img src="assets/images/icons/iconChepelare.png" alt="iconChepelare">
+								<img src="assets/images/icons/icon-chepelare.png" alt="iconChepelare">
 								<p class="text-uppercase text-center"><?php echo lang('chepelare'); ?></p>
 							</div>
 						</a>
@@ -306,7 +306,7 @@
 
 				<!--Right Aside-->
 				<aside class="col-lg-2" id="rightAside">
-					<a href="#" ><img id="pragmaticLogo" src="assets/images/icons/pragmaticLogo.png" alt="weather"></a>
+					<a href="#" ><img id="pragmaticLogo" src="assets/images/icons/pragmatic-logo.png" alt="weather"></a>
 					<span class="text-uppercase"><?php echo lang('weather_title'); ?></span>
 					<div id="weatherReg">
 						<a href="#"><img  src="assets/images/icons/weather.png" alt="weather"></a>

@@ -78,6 +78,11 @@ header {
 	letter-spacing: 2px;
 }
 
+.clock{
+	width: 54px !important;
+	height: 54px !important;
+}
+
 
 #clocks p{
 	color: #4d4d4e;
@@ -115,7 +120,7 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 #navigation {
-	
+	padding-left: 60px;
 }
 
 #navigation a{

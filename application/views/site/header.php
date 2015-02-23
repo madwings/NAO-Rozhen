@@ -16,6 +16,10 @@
 	<script src="assets/js/bootstrap.min.js" defer></script>
 	<script src="assets/js/bootstrapCarouselSlider.js" defer></script>
 	<script src="assets/js/main.js" defer></script>
+
+	<!--JS for the clocks-->
+	<!--[if IE]><script type="text/javascript" src="assets/js/excanvas.js" ></script><![endif]-->
+	<script type="text/javascript" src="assets/js/coolclock.js" defer></script>
 	
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -42,11 +46,11 @@
 					</div>
 					<div id="clocks" class="col-lg-2">
 						<div class="col-lg-6">
-							<img src="assets/images/icons/clock.png" alt="">
+							<canvas class="CoolClock:classicOnBlack:30 clock" ></canvas>
 							<p>EET</p>
 						</div>
 						<div class="col-lg-6">
-							<img src="assets/images/icons/clock.png" alt="">
+							<canvas class="CoolClock:classicOnBlack:30::0 clock" ></canvas>
 							<p>UT</p>
 						</div>
 					</div>

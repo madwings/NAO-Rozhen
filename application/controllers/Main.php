@@ -21,7 +21,8 @@ class Main extends CI_Controller {
 	 */
 	public function __construct() {
 		parent::__construct();
-		$this->_language_detect();
+		$this->load->helper('lang');
+		$this->language = language_detect();
 	}
 	/**
 	 * Index Page for this controller.
@@ -32,42 +33,41 @@ class Main extends CI_Controller {
 	 */
 	public function index() {
 		$this->lang->load('header_footer', $this->language);
-		$this->lang->load('home', $this->language);
+		$page = $this->uri->segment(1);
+		if (empty($page)) {
+			$page = 'home';
+		}
+		
 		$this->lang->load('sidebars', $this->language);
-		$this->load->view('site/header');
-		$this->load->view('site/home');
-		$this->load->view('site/footer');
+		$header = $this->load->view('site/header', '', TRUE);
+		$content = $this->$page();
+		$footer = $this->load->view('site/footer', '', TRUE);
+		
+		echo $header . $content . $footer;
 	}
 	
 	// --------------------------------------------------------------------
 
 	/**
-	 * Detects user's language
+	 * Load home subpage
 	 *
-	 * Tries to detect user's language, based on cookie previously set or
-	 * borwser's accepted languages. If none is satisfied it defaults to english.
-	 *
-	 * @return	void
+	 * @return	string
 	 */
-	private function _language_detect() {
-		$headers_all = getallheaders();
-		if ( ! empty($_COOKIE['site_lang'])) {
-			$this->language = $_COOKIE['site_lang'];
-		} else if ( ! empty($headers_all['Accept-Language']) && strpos($headers_all['Accept-Language'], 'bg') !== FALSE) {
-			$this->language = 'bulgarian';
-		} else {
-			$this->language = 'english';
-		}
-	}
+	private function home() {
+		$this->lang->load('home', $this->language);
+		
+		return $this->load->view('site/home', '', TRUE);
+    }
 	
 	// --------------------------------------------------------------------
 
 	/**
 	 * Switch site's view languge
 	 *
-	 * Accepts an language string and applies is it as default view language.
+	 * Accepts an language string and applies it as default view language.
 	 *
 	 * @param	string	$language
+	 *
 	 * @return	void
 	 */
 	public function language_switch($language = NULL) {

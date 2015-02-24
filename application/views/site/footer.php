@@ -8,58 +8,63 @@
 					<div class="col-lg-1">
 						<a href="#NAOHeader"><img  class="up" src="assets/images/icons/up.png" alt="up"></a>
 					</div>
-					<div class="col-lg-2 col-lg-offset-1">
+					<div class="col-lg-2 col-lg-offset-1"> 
+					<!-- ДА НАМАЛЯ КОЛОНАТА НА 1НА И ОТДОЛУ СЪЩО И
+					 ДА ПРОБВАМ ДАЛИ МНОГО ЩЕ СЕ РАЗБУТАТ. АКО НЕ СТАВА ДА ГИ 
+					 ОСТАВЯ НА ДВЕ-->
 						<span class="title"><?php echo lang('site_map'); ?></span>
-						<div class="links" id="follow">
-							<a href="#"><span><?php echo lang('home'); ?></span></a>
-							<a href="#"><span><?php echo lang('news'); ?></span></a>
-							<a href="#"><span><?php echo lang('observatory'); ?></span></a>
-							<a href="#"><span><?php echo lang('institute'); ?></span></a>
-							<a href="#"><span><?php echo lang('astro_calendar'); ?></span></a>
-							<a href="#"><span><?php echo lang('gallery'); ?></span></a>
-							<a href="#"><span><?php echo lang('contacts'); ?></span></a>
-						</div>
+						<ul class="links">
+							<a href="#"><li><?php echo lang('home'); ?></li></a>
+							<a href="#"><li><?php echo lang('news'); ?></li></a>
+							<a href="#"><li><?php echo lang('observatory'); ?></li></a>
+							<a href="#"><li><?php echo lang('institute'); ?></li></a>
+							<a href="#"><li><?php echo lang('astro_calendar'); ?></li></a>
+							<a href="#"><li><?php echo lang('gallery'); ?></li></a>
+							<a href="#"><li><?php echo lang('contacts'); ?></li></a>
+						</ul>
 					</div>
 					<div class="col-lg-2">
 						<span class="title"><?php echo lang('follow_us'); ?></span>
-						<div class="links">
+						<ul class="links" id="follow">
 							<a href="#">
-								<img src="assets/images/icons/rss.png" alt="rss">
-								<span>
-									<span class="text-uppercase">rss</span> Feed
-								</span>
+								
+								<li>
+									<img src="assets/images/icons/rss.png" alt="rss">
+									<span class="socialSpan"><span class="text-uppercase">rss</span> Feed</span>
+								</li>
 							</a>
 							<a href="#">
-								<img src="assets/images/icons/fBook.png" alt="fBook">
-								<span>
-									Facebook
-								</span>
+								<li>
+									<img src="assets/images/icons/fBook.png" alt="fBook">
+									<span class="socialSpan">Facebook</span>
+								</li>
 							</a>
 							<a href="#">
-								<img src="assets/images/icons/gPlus.png" alt="gPlus">
-								<span>
-									Google &#43;
-								</span>
+								<li>
+									<img src="assets/images/icons/gPlus.png" alt="gPlus">
+									<span class="socialSpan">Google &#43;</span>
+								</li>
 							</a>
 							<a href="#">
-								<img src="assets/images/icons/pint.png" alt="pint">
-								<span>
-									Pinterest
-								</span>
+								<li>
+									<img src="assets/images/icons/pint.png" alt="pint">
+									<span class="socialSpan">Pinterest</span>
+								
+								</li>
 							</a>
-						</div>
+						</ul>
 					</div>
 					<div class="col-lg-1">
 						<span class="title"><?php echo lang('links'); ?></span>
 						<div class="links">
-							<div id="footerLinks">
+							<ul id="footerLinks">
 								<a href="#">
-									<img src="assets/images/icons/arrowLink.png" alt="arrowLink"><span><?php echo lang('astro'); ?></span>
+									<li><img src="assets/images/icons/arrowLink.png" alt="arrowLink"><span class="socialSpan"><?php echo lang('astro'); ?></span></li>
 								</a>
 								<a href="#">
-									<img src="assets/images/icons/arrowLink.png" alt="arrowLink"><span><?php echo lang('meteo'); ?></span>
+									<li><img src="assets/images/icons/arrowLink.png" alt="arrowLink"><span class="socialSpan"><?php echo lang('meteo'); ?></span></li>
 								</a>
-							</div>
+							</ul>
 						</div>
 					</div>
 					<div class="col-lg-2 col-lg-offset-1">

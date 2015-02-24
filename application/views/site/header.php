@@ -46,11 +46,11 @@
 					</div>
 					<div id="clocks" class="col-lg-2">
 						<div class="col-lg-6">
-							<canvas class="CoolClock:classicOnBlack:30 clock" ></canvas>
+							<canvas class="CoolClock:classicOnBlack:30" ></canvas>
 							<p>EET</p>
 						</div>
 						<div class="col-lg-6">
-							<canvas class="CoolClock:classicOnBlack:30::0 clock" ></canvas>
+							<canvas class="CoolClock:classicOnBlack:30::0" ></canvas>
 							<p>UT</p>
 						</div>
 					</div>

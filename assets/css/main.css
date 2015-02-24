@@ -78,12 +78,6 @@ header {
 	letter-spacing: 2px;
 }
 
-.clock{
-	width: 54px !important;
-	height: 54px !important;
-}
-
-
 #clocks p{
 	color: #4d4d4e;
 	padding-left: 17px;

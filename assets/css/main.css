@@ -14,7 +14,7 @@ body{
 }
 
 .boxShadow{
-	box-shadow: 0px 0px 7px #000;
+	box-shadow: 0px 0px 5px #000;
 
 }
 
@@ -119,7 +119,7 @@ How to justify navbar-nav in Bootstrap 3
 }
 
 #navigation {
-	padding-left: 60px;
+	padding-left: 76px;
 }
 
 #navigation a{
@@ -147,10 +147,11 @@ How to justify navbar-nav in Bootstrap 3
 #impMssg{
 	width: 770px;
 	margin-top: 30px;
+	margin-left: 10px;
 	height: 85px;
 	background-image: url("../images/icons/importantMssgShadow.png");
 	background-repeat: no-repeat;
-	background-position: 0px 70px;
+	background-position: -25px 70px;
 }
 
 
@@ -176,8 +177,11 @@ How to justify navbar-nav in Bootstrap 3
 #iconContainer{
 	padding: 0px;
 }
+
 #iconNavigation {
-	padding-left: 10px;
+	padding-left: 20px;
+	margin-right: 0px;
+	padding-right: 0px;
 }
 
 #iconNavigation ul{
@@ -319,17 +323,26 @@ How to justify navbar-nav in Bootstrap 3
 	padding-left: 0px;
 	padding-right: 0px;
 	height: 300px;
-	margin-top: 15px;
+	margin-top: 25px;
 }
 
 .leftArticles{
 	width:345px;
-	height:80px;
+	height:95px;
 	padding-left: 0px;
 	border-bottom: 2px dotted #91a2b0;
 	position: relative;
+	margin-top: 15px;
+}
+
+.list-group{
+	margin-bottom: 0px !important;
 }
 	
+#sectionArticles .leftArticles:first-child{
+	margin-top: 5px;
+}
+
 .leftArticles a {
 	background:transparent;
 	border: none;
@@ -353,18 +366,27 @@ How to justify navbar-nav in Bootstrap 3
 .leftPics {
 	position: absolute;
 	float:left;
-	box-shadow: 1px 1px 10px;
+	box-shadow: 0px 1px 5px;
+	margin-top: 3px;
 }
+
 .leftItemText{
 	font-family: "corbel";
 	font-size: 12px;
 	padding: 0px;
-	width: 320px;
+	width: 326px;
 	padding-left: 95px;
 	text-align: justify;
-	line-height: 1;
+	line-height: 1.3;
 	position: absolute;
 }
+
+.left-article-news{
+	width: 230px;
+	line-height: 1.2;
+	height: 45px;
+}
+
 
 .readMoreArrow{
 	opacity: 0.3;
@@ -376,6 +398,9 @@ How to justify navbar-nav in Bootstrap 3
 	float: right;
 	margin-top: -10px;
 	margin-right: -20px;
+	font-weight: bold;
+	font-family: "tahoma";
+	font-size: 10px;
 }
 
 .leftArticles:last-child{
@@ -469,7 +494,7 @@ How to justify navbar-nav in Bootstrap 3
 
 
 #astrJournal{
-	margin-top: 15px;
+	margin-top: 10px;
 	text-align: center;
 	background: transparent;
 }
@@ -501,7 +526,7 @@ How to justify navbar-nav in Bootstrap 3
 #myCarousel{
 	width: 755px;
 	margin-left: 25px;
-	margin-top: 60px;
+	margin-top: 42px;
 }
 
 #myCarousel a{

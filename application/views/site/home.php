@@ -78,7 +78,7 @@
 										<img class="leftPics  boxShadow" src="assets/images/icons/pic1.png" alt="pic1">
 										<div class="leftItemText">
 											<p class="leftArticleHeader">Lorem ipsum</p>
-											<p>Duis aute irure dolor
+											<p class="left-article-news">Duis aute irure dolor
 											 in reprehenderit in voluptate 
 											 velit esse cillum dolore eu fugiat 
 											 nulla pariatur. Sed ut perspiciatis 
@@ -96,7 +96,7 @@
 										<img class="leftPics boxShadow" src="assets/images/icons/pic2.png" alt="pic2">
 										<div class="leftItemText">
 											<p class="leftArticleHeader">Lorem ipsum</p>
-											<p>Duis aute irure dolor
+											<p class="left-article-news">Duis aute irure dolor
 											 in reprehenderit in voluptate 
 											 velit esse cillum dolore eu fugiat 
 											 nulla pariatur. Sed ut perspiciatis 
@@ -114,7 +114,7 @@
 										<img class="leftPics boxShadow" src="assets/images/icons/pic3.png" alt="pic3">
 										<div class="leftItemText">
 											<p class="leftArticleHeader">Lorem ipsum</p>
-											<p>Duis aute irure dolor
+											<p class="left-article-news">Duis aute irure dolor
 											 in reprehenderit in voluptate 
 											 velit esse cillum dolore eu fugiat 
 											 nulla pariatur. Sed ut perspiciatis 

@@ -623,11 +623,6 @@ footer {
 	color: #434c53;
 }
 
-.footerContent li:hover{
-	text-decoration: none;
-	font-weight: bold;
-}
-
 .footerContent a:hover{
 	text-decoration: none;
 	font-weight: bold;
@@ -646,7 +641,6 @@ footer {
 }
 
 .links li{
-	line-height: 1.4;
 	font-family: "tahoma";
 	font-size:12px;
 	color: #434c53;
@@ -656,7 +650,7 @@ footer {
 }
 
 .links a{
-	display: block;
+	display: inline-block;
 	position: relative;
 }
 
@@ -666,7 +660,6 @@ footer {
 	width: 18px;
 	height: 18px;
 	position: absolute;
-	background-color: #434c53;
 }
 
 .fa{
@@ -746,14 +739,16 @@ footer {
     background: linear-gradient(#6a7883, #454f56); 
 }
 
-#rights{
+#rights {
+	bottom: 10px;
+	position: relative;
 	font-family: "tahoma";
 	font-size: 12px;
 	color: #434c53;
 	float: none;
-	margin: 0 auto;
 }
 
-#rights p{
+#rights p {
 	margin-bottom: 0px;
 }
+

@@ -18,5 +18,5 @@ $lang['astro'] = 'Астро';
 $lang['meteo'] = 'Метео';
 $lang['submit'] = 'изпрати';
 $lang['email_text'] = 'Вашият еmail адрес';
-$lang['last_modified'] = 'Последна aктуализация: 09 януари 2015';
+$lang['last_modified'] = 'Последна aктуализация: 25 февруари 2015';
 $lang['copyright'] = '2008-2015 НАО-Рожен';

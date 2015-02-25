@@ -18,5 +18,5 @@ $lang['astro'] = 'Astro';
 $lang['meteo'] = 'Meteo';
 $lang['submit'] = 'submit';
 $lang['email_text'] = 'Your Email Address';
-$lang['last_modified'] = 'Last Actualization: 09 January 2015';
+$lang['last_modified'] = 'Last Actualization: 25 February 2015';
 $lang['copyright'] = '2008-2015 NAO-Rozhen';

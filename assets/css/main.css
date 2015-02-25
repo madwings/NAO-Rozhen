@@ -618,13 +618,15 @@ footer {
 .title{
 	font-family: "corbel";
 	font-weight: bold;
-	border-bottom: 2px groove #58646d;
-	width: 100px;
+	text-decoration: underline;
 	color: #58646d;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
 
 .footerContent a{
 	text-decoration: none;
+	color: #434c53;
 }
 
 .footerContent li:hover{
@@ -635,6 +637,13 @@ footer {
 .footerContent a:hover{
 	text-decoration: none;
 	font-weight: bold;
+	color: #434c53;
+}
+
+.footerContent a:focus{
+	text-decoration: none;
+	color: #434c53;
+
 }
 
 .links{
@@ -654,13 +663,38 @@ footer {
 
 .links a{
 	display: block;
+	position: relative;
 }
 
+.IconBoot{
+	border: 1px #434c53 solid;
+	border-radius: 100%;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	background-color: #434c53;
+}
+
+.fa{
+	padding-left: 4px;
+	color: #BAC0C4;
+	position: absolute;
+	padding-top: 1px;
+	line-height: 1.4 !important;
+}
+
+#fb-icon{
+	padding-left: 5px;
+}
 
 #follow{
 	padding-left: 0px ;
 	margin-top: 10px;
 	
+}
+
+#follow a{
+	height: 22px;
 }
 
 #follow li{
@@ -672,8 +706,18 @@ footer {
 	margin-top: 10px;
 }
 
+#footerLinks .fa{
+	padding-left: 5px;
+	width: 14px;
+	height: 14px;
+}
+
 #footerLinks li{
 	padding-bottom: 5px;
+}
+
+#footerLinks a{
+	height: 20px;
 }
 
 #inputEmail{
@@ -683,9 +727,7 @@ footer {
 }
 
 .socialSpan{
-	position: absolute;
-	padding-top: 1px;
-	padding-left: 5px;
+	padding-left: 22px;
 }
 
 #inputEmail:focus{

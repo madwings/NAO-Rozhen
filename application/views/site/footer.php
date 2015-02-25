@@ -8,67 +8,58 @@
 					<div class="col-lg-1">
 						<a href="#NAOHeader"><img  class="up" src="assets/images/icons/up.png" alt="up"></a>
 					</div>
-					<div class="col-lg-2 col-lg-offset-1"> 
-					<!-- ДА НАМАЛЯ КОЛОНАТА НА 1НА И ОТДОЛУ СЪЩО И
-					 ДА ПРОБВАМ ДАЛИ МНОГО ЩЕ СЕ РАЗБУТАТ. АКО НЕ СТАВА ДА ГИ 
-					 ОСТАВЯ НА ДВЕ-->
-						<span class="title"><?php echo lang('site_map'); ?></span>
+					<div class="col-lg-2 col-lg-offset-1">
+						<h5 class="title"><?php echo lang('site_map'); ?></h5>
 						<ul class="links">
-							<a href="#"><li><?php echo lang('home'); ?></li></a>
-							<a href="#"><li><?php echo lang('news'); ?></li></a>
-							<a href="#"><li><?php echo lang('observatory'); ?></li></a>
-							<a href="#"><li><?php echo lang('institute'); ?></li></a>
-							<a href="#"><li><?php echo lang('astro_calendar'); ?></li></a>
-							<a href="#"><li><?php echo lang('gallery'); ?></li></a>
-							<a href="#"><li><?php echo lang('contacts'); ?></li></a>
+							<li><a href="#"><?php echo lang('home'); ?></a></li>
+							<li><a href="#"><?php echo lang('news'); ?></a></li>
+							<li><a href="#"><?php echo lang('observatory'); ?></a></li>
+							<li><a href="#"><?php echo lang('institute'); ?></a></li>
+							<li><a href="#"><?php echo lang('astro_calendar'); ?></a></li>
+							<li><a href="#"><?php echo lang('gallery'); ?></a></li>
+							<li><a href="#"><?php echo lang('contacts'); ?></a></li>
 						</ul>
 					</div>
 					<div class="col-lg-2">
-						<span class="title"><?php echo lang('follow_us'); ?></span>
+						<h5 class="title"><?php echo lang('follow_us'); ?></h5>
 						<ul class="links" id="follow">
-							<a href="#">
-								
-								<li>
-									<img src="assets/images/icons/rss.png" alt="rss">
+							<li>
+								<a href="#">
+									<span class="IconBoot"><i class="fa fa-rss"></i></span>
 									<span class="socialSpan"><span class="text-uppercase">rss</span> Feed</span>
-								</li>
-							</a>
-							<a href="#">
-								<li>
-									<img src="assets/images/icons/fBook.png" alt="fBook">
+								</a>								
+							</li>
+							<li>
+								<a href="#">
+									<span class="IconBoot"><i class="fa fa-facebook" id="fb-icon"></i></span>
 									<span class="socialSpan">Facebook</span>
-								</li>
-							</a>
-							<a href="#">
-								<li>
-									<img src="assets/images/icons/gPlus.png" alt="gPlus">
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span class="IconBoot"><i class="fa fa-google-plus"></i></span>
 									<span class="socialSpan">Google &#43;</span>
-								</li>
-							</a>
-							<a href="#">
-								<li>
-									<img src="assets/images/icons/pint.png" alt="pint">
+								</a>								
+							</li>
+							<!--<li>
+								<a href="#">
+									<span class="IconBoot"><i class="fa fa-pinterest"></i></span>
 									<span class="socialSpan">Pinterest</span>
-								
-								</li>
-							</a>
+								</a>								
+							</li>-->
 						</ul>
 					</div>
 					<div class="col-lg-1">
-						<span class="title"><?php echo lang('links'); ?></span>
+						<h5 class="title"><?php echo lang('links'); ?></h5>
 						<div class="links">
 							<ul id="footerLinks">
-								<a href="#">
-									<li><img src="assets/images/icons/arrowLink.png" alt="arrowLink"><span class="socialSpan"><?php echo lang('astro'); ?></span></li>
-								</a>
-								<a href="#">
-									<li><img src="assets/images/icons/arrowLink.png" alt="arrowLink"><span class="socialSpan"><?php echo lang('meteo'); ?></span></li>
-								</a>
+								<li><a href="#"><span class="IconBoot"><i class="fa fa-chevron-right"></i></span><span class="socialSpan"><?php echo lang('astro'); ?></span></a></li>
+								<li><a href="#"><span class="IconBoot"><i class="fa fa-chevron-right"></i></span><span class="socialSpan"><?php echo lang('meteo'); ?></span></a></li>
 							</ul>
 						</div>
 					</div>
 					<div class="col-lg-2 col-lg-offset-1">
-						<span class="title"><?php echo lang('subscribe'); ?></span>
+						<h5 class="title"><?php echo lang('subscribe'); ?></h5>
 						<div class="links">
 						<form>
 							<div class="form-group">

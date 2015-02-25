@@ -23,37 +23,37 @@
 								<ul class="nav navbar-nav">
 									<li>
 										<a href="#">
-											<img class="astroIcon" src="assets/images/icons/events.png" alt="events">
+											<img class="astro-icon" src="assets/images/icons/events.png" alt="events">
 											<span class="astroMenuText"><?php echo lang('upcoming_events'); ?></span>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<img class="astroIcon" src="assets/images/icons/comets.png" alt="comets">
+											<img class="astro-icon" src="assets/images/icons/comets.png" alt="comets">
 											<span class="astroMenuText"><?php echo lang('comets'); ?></span>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<img class="astroIcon" src="assets/images/icons/phenomenon.png" alt="phenomenon">
+											<img class="astro-icon" src="assets/images/icons/phenomenon.png" alt="phenomenon">
 											<span class="astroMenuText"><?php echo lang('sun_moon_phenomenon'); ?></span>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<img class="astroIcon" src="assets/images/icons/planets.png" alt="planets">
+											<img class="astro-icon" src="assets/images/icons/planets.png" alt="planets">
 											<span class="astroMenuText"><?php echo lang('planets_ascension'); ?></span>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<img class="astroIcon" src="assets/images/icons/meteors.png" alt="meteors">
+											<img class="astro-icon" src="assets/images/icons/meteors.png" alt="meteors">
 											<span class="astroMenuText"><?php echo lang('meteor_streams'); ?></span>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<img class="astroIcon" src="assets/images/icons/eclipses.png" alt="eclipses">
+											<img class="astro-icon" src="assets/images/icons/eclipses.png" alt="eclipses">
 											<span class="astroMenuText"><?php echo lang('sun_moon_eclipses'); ?></span>
 										</a>
 									</li>

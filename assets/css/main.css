@@ -199,9 +199,11 @@ How to justify navbar-nav in Bootstrap 3
 	
 }
 
-.astroIcon{
+.astro-icon{
 	opacity: 0.4;
 }
+
+
 
 .astroMenuText{
 	font-family: corbel;
@@ -219,7 +221,12 @@ How to justify navbar-nav in Bootstrap 3
 	background-color: transparent;
 }
 
-#iconNavigation a:hover > .astroIcon{
+#iconNavigation a:hover > .astro-icon{
+	opacity: 1;
+	
+}
+
+#iconNavigation a:focus > .astro-icon{
 	opacity: 1;
 	
 }

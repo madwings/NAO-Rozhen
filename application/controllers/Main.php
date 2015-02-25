@@ -24,6 +24,9 @@ class Main extends CI_Controller {
 		$this->load->helper('lang');
 		$this->language = language_detect();
 	}
+	
+	// --------------------------------------------------------------------
+	
 	/**
 	 * Index Page for this controller.
 	 *

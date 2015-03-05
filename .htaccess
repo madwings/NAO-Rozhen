@@ -44,5 +44,5 @@
 		AddOutputFilterByType DEFLATE application/rss+xml
 		AddOutputFilterByType DEFLATE application/javascript 
 		AddOutputFilterByType DEFLATE application/x-font-ttf
-    </IfModule>
+		AddOutputFilterByType DEFLATE application/octet-stream
 </IfModule>

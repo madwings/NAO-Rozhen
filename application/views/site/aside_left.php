@@ -1,5 +1,6 @@
 <!--Left Aside-->
-<aside class="col-lg-2" id="leftAside">
+<!--"col-lg" is replace by "col-xs" for non-rsponsive-->
+<aside class="col-xs-2" id="leftAside">
 	<a href="http://www.bas.bg/" target="_blank">
 		<img id="banIcon" src="<?php echo lang('bas_logo'); ?>" alt="banIcon" class="img-responsive">
 	</a>

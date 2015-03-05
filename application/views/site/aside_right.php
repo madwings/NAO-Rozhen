@@ -1,5 +1,6 @@
 <!--Right Aside-->
-<aside class="col-lg-2" id="rightAside">
+<!--"col-lg" is replace by "col-xs" for non-rsponsive-->
+<aside class="col-xs-2" id="rightAside">
 	<a href="http://pragmatic.bg/" target="_blank">
 		<img id="pragmaticLogo" src="assets/images/icons/pragmatic-logo.png" alt="Pragmatic">
 	</a>

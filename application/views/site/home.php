@@ -1,13 +1,14 @@
 	<!-- CONTENT of the Page starts from here-->
+	<!--"col-lg" is replace by "col-xs" for non-rsponsive-->
 	<div id="content">
 		<div class="container" id="container">
 			<div class="row" id="firstRowContent">
 			<?php $this->load->view('site/aside_left'); ?>
-			<div class="col-lg-8" id="iconContainer" >
+			<div class="col-xs-8" id="iconContainer" >
 				<!--Icon Navigation-->
 					<nav class="navbar text-uppercase" role="navigation">
 							<div class="navbar-header">
-								<!--Button for responsive navigation -->
+								<!--Button for responsive navigation 
 								<button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#iconNavigation">BUTTON
 									<span class="sr-only">Toggle navigation</span>
 									<span class="icon-bar"></span>
@@ -17,10 +18,11 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
-								</button>
+								</button>-->
 							</div>
-							<div class="collapse navbar-collapse " id="iconNavigation">
-								<ul class="nav navbar-nav">
+							<!--collapse navbar-collapse-->
+							<div class="" id="iconNavigation">
+								<ul class="nav navbar-nav" id="icon-nav">
 									<li>
 										<a href="#">
 											<img class="astro-icon" src="assets/images/icons/events.png" alt="events">
@@ -71,7 +73,7 @@
 
 					<!--Section Articles-->
 					<section  id="sectionArticles">
-						<div class="col-lg-6"><!-- left aricles-->
+						<div class="col-xs-6"><!-- left aricles-->
 							<article class="leftArticles">
 								<div class="list-group">
 									<a href="#" class="list-group-item">
@@ -129,7 +131,7 @@
 						</div>
 						<!--End of Left Articles-->
 						<!-- Right aricles-->
-						<div class="col-lg-6"> 
+						<div class="col-xs-6"> 
 							<article class="rightArticles">
 								<div class="list-group">
 									<a href="#" class="list-group-item">
@@ -161,10 +163,12 @@
 					</section>
 					<!--End of Section with articles-->					
 					<!--Carousel Slider-->
+
+					<!--col-xs-4 of carusel items is col-md-4-->
 					<div class="carousel slide" id="myCarousel">
 						<div class="carousel-inner" id="carouselInner">
 							<div class="item active con">
-								<div class="col-md-4 pad">
+								<div class="col-xs-4 pad">
 									
 										<div class="imgContainer boxShadow">
 											<img class="pics img-responsive" src="assets/images/icons/pic20.png"  alt="pic20">
@@ -178,7 +182,7 @@
 								</div>
 							</div>
 							<div class="item con">
-								<div class="col-md-4 pad">
+								<div class="col-xs-4 pad">
 									
 										<div class="imgContainer boxShadow">
 											<img class="pics img-responsive" src="assets/images/icons/pic14.png"  alt="pic14">
@@ -192,7 +196,7 @@
 								</div>
 							</div>
 							<div class="item con">
-								<div class="col-md-4 pad">
+								<div class="col-xs-4 pad">
 									
 										<div class="imgContainer boxShadow">
 											<img class="pics img-responsive" src="assets/images/icons/pic15.png"  alt="pic15">
@@ -206,7 +210,7 @@
 								</div>
 							</div>
 							<div class="item con">
-								<div class="col-md-4 pad">
+								<div class="col-xs-4 pad">
 									
 										<div class="imgContainer boxShadow">
 											<img class="pics img-responsive" src="assets/images/icons/pic20.png" alt="pic20">
@@ -220,7 +224,7 @@
 								</div>
 							</div>
 							<div class="item con">
-								<div class="col-md-4 pad">
+								<div class="col-xs-4 pad">
 									
 										<div class="imgContainer boxShadow">
 											<img class="pics img-responsive" src="assets/images/icons/pic14.png" alt="pic14">
@@ -234,7 +238,7 @@
 								</div>
 							</div>
 							<div class="item con">
-								<div class="col-md-4 pad">								
+								<div class="col-xs-4 pad">								
 										<div class="imgContainer boxShadow">
 											<img class="pics img-responsive" src="assets/images/icons/pic15.png" alt="pic15">
 											<div class="hoverImg">

@@ -1,3 +1,5 @@
+
+
 @font-face {
 	font-family: 'play-regular';
 	src: url('../fonts/play-regular.ttf');
@@ -7,6 +9,51 @@
 	font-family: 'play-bold';
 	src: url('../fonts/play-bold.ttf');
 }
+
+/*css for non responsive*/
+
+header{
+	width: 100% !important;
+	min-width: 1200px !important;
+}
+
+.container{
+  max-width: none !important;
+  width:1170px!important;
+}
+
+#nav{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.navbar-nav {
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+#icon-nav{
+	width: 752px;
+	display: flex;
+}
+
+@media(max-width:770px) {
+	#icon-nav{
+		padding-left: 20px;
+	}
+
+	#navigation {
+		padding-left: 70px !important;
+	}
+}
+
+
+footer{
+	width: 100% !important;
+	min-width: 1200px !important;
+}
+
+/*end of non responsive css*/
 
 body{
 	background-image: url("../images/icons/starrysky.png");

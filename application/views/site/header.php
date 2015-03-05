@@ -3,7 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<title><?php echo lang('title'); ?></title>
-	<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">
+	<!--remove meta viewport for non-responsive page-->
+	<!--<meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1.0, initial-scale=1.0">-->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<!--CSS-->
@@ -31,27 +32,28 @@
 </head>
 <body>
 	<!-- HEADER of the Page -->
+	<!--"col-lg" is replace by "col-xs" for non-rsponsive-->
 	<header>
 		<div class="headerContent">
 			<div class="container">
 				<div class="row  text-uppercase">
-					<div class="col-lg-1 col-lg-offset-11" id="anchors">
+					<div class="col-xs-1 col-xs-offset-11" id="anchors">
 						<a href="main/language_switch/bulgarian/" id="lang-bg">bg</a>
 						<a href="main/language_switch/english/" id="lang-en">en</a>
 					</div>
 				</div>
 				
 				<div class="row" id="NAOHeader">
-					<div class="col-lg-8 col-lg-offset-2 text-center text-uppercase" id="header-title">
+					<div class="col-xs-8 col-xs-offset-2 text-center text-uppercase" id="header-title">
 						<p><?php echo lang('title_header_1'); ?></p>
 						<p><?php echo lang('title_header_2'); ?></p>
 					</div>
-					<div id="clocks" class="col-lg-2">
-						<div class="col-lg-6">
+					<div id="clocks" class="col-xs-2">
+						<div class="col-xs-6">
 							<canvas class="CoolClock:classicOnBlack:30" ></canvas>
 							<p>EET</p>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-xs-6">
 							<canvas class="CoolClock:classicOnBlack:30::0" ></canvas>
 							<p>UT</p>
 						</div>
@@ -67,9 +69,9 @@
 			<nav class="navbar text-uppercase" role="navigation" id="nav">
 				<div class="container" >
 					<div class="row">
-						<div class="col-lg-10" id="navContainer">
+						<div class="col-xs-10" id="navContainer">
 							<div class="navbar-header">
-								<!--button for responsive navigation -->
+								<!--button for responsive navigation 
 								<button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#iconNavigation">BUTTON
 									<span class="sr-only">Toggle navigation</span>
 									<span class="icon-bar"></span>
@@ -79,9 +81,10 @@
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
-								</button>
+								</button>-->
 							</div>
-							<div class="collapse navbar-collapse" id="navigation">
+							<!--collapse navbar-collapse-->
+							<div class="" id="navigation">
 								<ul class="nav navbar-nav nav-pills">
 									<li><a href="#"><?php echo lang('home'); ?></a></li>
 									<li><a href="#"><?php echo lang('news'); ?></a></li>

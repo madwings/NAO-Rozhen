@@ -1,14 +1,15 @@
 	<!-- FOOTER of the Page -->
+	<!--"col-lg" is replace by "col-xs" for non-rsponsive-->
 	<footer>
 	<div class="divider"></div>
 		<div class="footerContent">
 		
 			<div class="container">
 				<div class="row" id="fourthRow">
-					<div class="col-lg-1">
+					<div class="col-xs-1">
 						<a href="#NAOHeader"><img  class="up" src="assets/images/icons/up.png" alt="up"></a>
 					</div>
-					<div class="col-lg-2 col-lg-offset-1">
+					<div class="col-xs-2 col-xs-offset-1">
 						<h5 class="title"><?php echo lang('site_map'); ?></h5>
 						<ul class="links">
 							<li><a href="#"><?php echo lang('home'); ?></a></li>
@@ -20,7 +21,7 @@
 							<li><a href="#"><?php echo lang('contacts'); ?></a></li>
 						</ul>
 					</div>
-					<div class="col-lg-2">
+					<div class="col-xs-2">
 						<h5 class="title"><?php echo lang('follow_us'); ?></h5>
 						<ul class="links" id="follow">
 							<li>
@@ -49,7 +50,7 @@
 							</li>-->
 						</ul>
 					</div>
-					<div class="col-lg-1">
+					<div class="col-xs-1">
 						<h5 class="title"><?php echo lang('links'); ?></h5>
 						<div class="links">
 							<ul id="footerLinks">
@@ -58,7 +59,7 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-2 col-lg-offset-1">
+					<div class="col-xs-2 col-xs-offset-1">
 						<h5 class="title"><?php echo lang('subscribe'); ?></h5>
 						<div class="links">
 						<form>
@@ -69,7 +70,7 @@
 						</form>
 						</div>
 					</div>
-					<div class="col-lg-1 col-lg-offset-1 text-right">
+					<div class="col-xs-1 col-xs-offset-1 text-right">
 						<a href="#NAOHeader"><img class="up" src="assets/images/icons/up.png" alt="up"></a>
 					</div>
 				</div>

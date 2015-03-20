@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="assets/css/main.css">
 	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<!--CSS for the font-awesome icons-->
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="assets/css/font-awesome.min.css" rel="stylesheet">
 	
 	<!--JS-->
 	<script src="assets/js/jquery.min.js" defer></script>

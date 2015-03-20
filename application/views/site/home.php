@@ -73,8 +73,8 @@
 
 					<!--Section Articles-->
 					<section  id="sectionArticles">
-						<div class="col-xs-6"><!-- left aricles-->
-							<article class="leftArticles">
+						<div class="col-xs-6" id="left-section-articles"><!-- left articles-->
+							<article class="left-article">
 								<div class="list-group">
 									<a href="#" class="list-group-item">
 										<img class="leftPics  boxShadow" src="assets/images/icons/pic1.png" alt="pic1">
@@ -92,7 +92,7 @@
 									</a>
 								</div>
 							</article>
-							<article class="leftArticles">
+							<article class="left-article">
 								<div class="list-group">
 									<a href="#" class="list-group-item">
 										<img class="leftPics boxShadow" src="assets/images/icons/pic2.png" alt="pic2">
@@ -110,7 +110,7 @@
 									</a>
 								</div>
 							</article>
-							<article class="leftArticles">
+							<article class="left-article">
 								<div class="list-group">
 									<a href="#" class="list-group-item">
 										<img class="leftPics boxShadow" src="assets/images/icons/pic3.png" alt="pic3">

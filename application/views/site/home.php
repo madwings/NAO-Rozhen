@@ -25,37 +25,37 @@
 								<ul class="nav navbar-nav" id="icon-nav">
 									<li>
 										<a href="#">
-											<img class="astro-icon" src="assets/images/icons/events.png" alt="events">
+											<div class="astro-icon" id="upcoming_events"></div>
 											<span class="astroMenuText"><?php echo lang('upcoming_events'); ?></span>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<img class="astro-icon" src="assets/images/icons/comets.png" alt="comets">
+											<div class="astro-icon" id="comets"></div>
 											<span class="astroMenuText"><?php echo lang('comets'); ?></span>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<img class="astro-icon" src="assets/images/icons/phenomenon.png" alt="phenomenon">
+											<div class="astro-icon" id="sun_moon_phenomenon"></div>
 											<span class="astroMenuText"><?php echo lang('sun_moon_phenomenon'); ?></span>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<img class="astro-icon" src="assets/images/icons/planets.png" alt="planets">
+											<div class="astro-icon" id="planets_ascension"></div>
 											<span class="astroMenuText"><?php echo lang('planets_ascension'); ?></span>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<img class="astro-icon" src="assets/images/icons/meteors.png" alt="meteors">
+											<div class="astro-icon" id="meteor_streams"></div>
 											<span class="astroMenuText"><?php echo lang('meteor_streams'); ?></span>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<img class="astro-icon" src="assets/images/icons/eclipses.png" alt="eclipses">
+											<div class="astro-icon" id="sun_moon_eclipses"></div>
 											<span class="astroMenuText"><?php echo lang('sun_moon_eclipses'); ?></span>
 										</a>
 									</li>

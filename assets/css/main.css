@@ -59,9 +59,17 @@ body{
     background-repeat: repeat; 
 }
 
+/*sprites*/
+.astro-icon, .leftIcons div, #astrJournalIcon, 
+#pragmaticLogo, #camIcon{
+	background-image: url('../images/icons/sprites.jpg');
+  	background-repeat: no-repeat;
+  	margin: 0 auto;
+  	
+}
+
 .boxShadow{
 	box-shadow: 0px 0px 5px #000;
-
 }
 
 header {
@@ -87,6 +95,8 @@ header {
 	width: 100%;
 	bottom: 0px;
 }
+
+
 
 #container{
 	padding-right: 0px ; 
@@ -215,8 +225,6 @@ header {
 	padding: 0px;
 }
 
-#iconNavigation {
-}
 
 #iconNavigation ul{
 	box-shadow: 10px 0px 10px -12px;
@@ -238,7 +246,29 @@ header {
 }
 
 .astro-icon{
+	width: 46px;
+	height: 46px;
 	opacity: 0.4;
+}
+
+#upcoming_events{
+	background-position: 0px -149px;
+}
+
+#comets{
+	background-position: 0px -249px;
+}
+#sun_moon_phenomenon{
+	background-position: 0px -50px;
+}
+#planets_ascension{
+	background-position: 0px 0px;
+}
+#meteor_streams{
+	background-position: 0px -99px;
+}
+#sun_moon_eclipses{
+	background-position: 0px -198px;
 }
 
 
@@ -294,11 +324,15 @@ header {
 }
 
 #pragmaticLogo{
-	display: block;
+	/*display: block;
 	float: none;
 	margin: 0 auto;
+	
+	padding-top: 0px !important;*/
+	width: 110px;
+	height: 110px;
+	background-position: -322px 0px;
 	margin-bottom: 35px;
-	padding-top: 0px !important;
 }
 
 
@@ -318,12 +352,47 @@ header {
 
 .leftIcons{
 	width: 95px;
-	margin: 0px;
 	margin-bottom: 10px;
 	display: inline-block;
 	font-family: "corbel";
 	font-size: 12px;
 	text-align: center;
+}
+
+#smolyan_icon{
+	width: 60px;
+	height: 77px;
+	background-position: -438px 0px;;
+}
+
+#chepelare{
+	width: 62px;
+	height: 86px;
+	background-position: -438px -82px;
+}
+
+#bau{
+	width: 74px;
+	height: 53px;
+	background-position: -438px -172px;
+}
+
+#niggg{
+	width: 57px;
+	height: 59px;
+	background-position: -437px -228px;
+}
+
+#nimh{
+	width: 63px;
+	height: 64px;
+	background-position: -437px -292px;
+}
+
+#moew{
+	width: 63px;
+	height: 64px;
+	background-position: -437px -357px;
 }
 
 #partnersHeader{
@@ -509,18 +578,25 @@ header {
 	margin-bottom: 18px;
 }
 
+#camIcon{
+	width: 100px;
+	height: 80px;
+	background-position: -214px 1px;
+	margin-top: 25px;
+
+}
+
 #cam h6{
 	font-family: tahoma;
 	font-weight: bold;
 	color: #6a7883;
 }
 
-#cam img{
-	padding-top: 20px;
+#cam #camIcon{
 	opacity: 0.4;
 }
 
-#cam a:hover>img{
+#cam a:hover>#camIcon{
 	opacity: 1;
 }
 
@@ -528,12 +604,16 @@ header {
 	text-decoration: none;
 }
 
-
-
 #astrJournal{
-	margin-top: 10px;
+	margin-top: 5px;
 	text-align: center;
 	background: transparent;
+}
+
+#astrJournalIcon{
+	width: 121px;
+	height: 172px;
+	background-position: -222px -118px;
 }
 
 #astrJournal a{

@@ -45,4 +45,5 @@
 		AddOutputFilterByType DEFLATE application/javascript 
 		AddOutputFilterByType DEFLATE application/x-font-ttf
 		AddOutputFilterByType DEFLATE application/octet-stream
+	</IfModule>
 </IfModule>

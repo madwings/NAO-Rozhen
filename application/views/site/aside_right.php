@@ -2,7 +2,7 @@
 <!--"col-lg" is replace by "col-xs" for non-rsponsive-->
 <aside class="col-xs-2" id="rightAside">
 	<a href="http://pragmatic.bg/" target="_blank">
-		<img id="pragmaticLogo" src="assets/images/icons/pragmatic-logo.png" alt="Pragmatic">
+		<div id="pragmaticLogo"></div>
 	</a>
 	<span class="text-uppercase"><?php echo lang('weather_title'); ?></span>
 	<div id="weatherReg">
@@ -12,7 +12,7 @@
 	<div id="cam">
 		<a href="#">
 			<h6 class="text-uppercase" ><?php echo lang('rcc'); ?></h6>
-			<img src="assets/images/icons/cam.png" alt="cam">
+			<div id="camIcon"></div>
 		</a>
 	</div>
 	<a href="#">

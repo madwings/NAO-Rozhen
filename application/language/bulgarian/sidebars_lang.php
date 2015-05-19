@@ -1,6 +1,6 @@
 <?php  defined('BASEPATH') OR exit('No direct script access allowed');
 
-$lang['bas_logo'] = 'assets/images/icons/ban_icon_bg.png';
+$lang['bas_logo'] = 'bas_logo_bg';
 $lang['partners'] = 'наши партньори';
 $lang['smolyan'] = 'община смолян';
 $lang['chepelare'] = 'обшина чепеларе';

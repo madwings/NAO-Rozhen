@@ -2,7 +2,7 @@
 <!--"col-lg" is replace by "col-xs" for non-rsponsive-->
 <aside class="col-xs-2" id="leftAside">
 	<a href="http://www.bas.bg/" target="_blank">
-		<img id="banIcon" src="<?php echo lang('bas_logo'); ?>" alt="banIcon" class="img-responsive">
+		<div class="<?php echo lang('bas_logo'); ?>" id="bas_logo"></div>
 	</a>
 	<div id="partners">	
 		<span class="text-uppercase text-center" id="partnersHeader"><?php echo lang('partners'); ?></span>

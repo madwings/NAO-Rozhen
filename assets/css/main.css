@@ -61,7 +61,7 @@ body{
 
 /*sprites*/
 .astro-icon, .leftIcons div, #astrJournalIcon, 
-#pragmaticLogo, #camIcon{
+#pragmaticLogo, #camIcon, #bas_logo {
 	background-image: url('../images/icons/sprites.jpg');
   	background-repeat: no-repeat;
   	margin: 0 auto;
@@ -336,21 +336,30 @@ header {
 }
 
 
-#rightAside img{
+#rightAside img {
 	padding-top: 30px;
 }
 
 
-#leftAside{
+#leftAside {
 	padding-right: 0px;
 	padding-left: 0px;
 }
 
-#banIcon{
-	margin: 0 auto;
+#bas_logo {
+	width: 153px;
+	height: 133px;
 }
 
-.leftIcons{
+#bas_logo.bas_logo_bg {
+	background-position: -55px -136px;;
+}
+
+#bas_logo.bas_logo_en {
+	background-position: -55px 0px;;
+}
+
+.leftIcons {
 	width: 95px;
 	margin-bottom: 10px;
 	display: inline-block;
@@ -359,43 +368,43 @@ header {
 	text-align: center;
 }
 
-#smolyan_icon{
+#smolyan_icon {
 	width: 60px;
 	height: 77px;
 	background-position: -438px 0px;;
 }
 
-#chepelare{
+#chepelare {
 	width: 62px;
 	height: 86px;
 	background-position: -438px -82px;
 }
 
-#bau{
+#bau {
 	width: 74px;
 	height: 53px;
 	background-position: -438px -172px;
 }
 
-#niggg{
+#niggg {
 	width: 57px;
 	height: 59px;
 	background-position: -437px -228px;
 }
 
-#nimh{
+#nimh {
 	width: 63px;
 	height: 64px;
 	background-position: -437px -292px;
 }
 
-#moew{
+#moew {
 	width: 63px;
 	height: 64px;
 	background-position: -437px -357px;
 }
 
-#partnersHeader{
+#partnersHeader {
 	font-family: "Tahoma";
 	font-size:12px;
 	text-align: center;
@@ -404,21 +413,21 @@ header {
 	margin-bottom: 10px;
 }
 
-#partners{
+#partners {
 	padding-left: 0px;
 	padding-right: 0px;
 	margin-top: 60px;
 }
 
-#partners p{
+#partners p {
 	color: #434c53;
 }
 
-#partners a:hover{
+#partners a:hover {
 	color: #000;
 }
 
-#sectionArticles{
+#sectionArticles {
 	background-image: url("../images/icons/shadowOfArticles.png");
 	background-repeat: no-repeat;
 	background-position: 390px 0px;
@@ -428,11 +437,11 @@ header {
 	margin-top: 25px;
 }
 
-#left-section-articles{
+#left-section-articles {
 	padding-left: 10px;
 }
 
-.left-article{
+.left-article {
 	width:345px;
 	height:95px;
 	padding-left: 0px;
@@ -441,11 +450,11 @@ header {
 	margin-top: 15px;
 }
 
-.list-group{
+.list-group {
 	margin-bottom: 0px !important;
 }
 	
-#sectionArticles .left-article:first-child{
+#sectionArticles .left-article:first-child {
 	margin-top: 5px;
 }
 
@@ -459,11 +468,11 @@ header {
 	background-color: transparent !important;
 }
 
-.left-article a:hover>.readMoreArrow{
+.left-article a:hover>.readMoreArrow {
 	opacity: 1;
 }
 
-.leftArticleHeader{
+.leftArticleHeader {
 	font-weight: bold;
 	margin:0px;
 	padding-bottom: 5px;
@@ -476,7 +485,7 @@ header {
 	margin-top: 3px;
 }
 
-.leftItemText{
+.leftItemText {
 	font-family: "corbel";
 	font-size: 12px;
 	padding: 0px;
@@ -487,20 +496,20 @@ header {
 	position: absolute;
 }
 
-.left-article-news{
+.left-article-news {
 	width: 230px;
 	line-height: 1.2;
 	height: 45px;
 }
 
 
-.readMoreArrow{
+.readMoreArrow {
 	opacity: 0.3;
 	float: right;
 	padding-top: 10px;
 }
 
-.time{
+.time {
 	float: right;
 	margin-top: -10px;
 	margin-right: -20px;
@@ -509,11 +518,11 @@ header {
 	font-size: 10px;
 }
 
-.left-article:last-child{
+.left-article:last-child {
 	border:none;
 }
 
-.rightArticles{
+.rightArticles {
 	width: 360px;
 	height: 150px;
 	border-bottom: 2px dotted #91a2b0;
@@ -528,7 +537,7 @@ header {
 	opacity: 1;
 }
 
-.rightArticleHeader{
+.rightArticleHeader {
 	font-family: "Tahoma";
 	font-weight: bold;
 	text-decoration: none;
@@ -536,14 +545,14 @@ header {
 	margin-bottom: 20px;
 }
 
-.rightArticles a{
+.rightArticles a {
 	background: transparent;
 	border: none;
 	padding: 0px;
 	position: relative;
 }
 
-.rightItemText p{
+.rightItemText p {
 	width: 160px;
 	height: 75px;
 	position: absolute;
@@ -552,33 +561,33 @@ header {
 	font-family: "corbel";
 }
 
-.rightItemText{
+.rightItemText {
 	position: absolute;
 }
 
-.readMoreArrowRight{
+.readMoreArrowRight {
 	padding-top: 45px;
 	padding-left: 165px;
 	opacity: 0.3;
 }
 
-.rightPics{
+.rightPics {
 	float: right;
 }
 
-.rightArticles:last-child{
+.rightArticles:last-child {
 	padding-top: 18px;
 	border: none;
 }
 
-#cam{
+#cam {
 	text-align: center;
 	margin-top: 30px;
 	width: 165px;
 	margin-bottom: 18px;
 }
 
-#camIcon{
+#camIcon {
 	width: 100px;
 	height: 80px;
 	background-position: -214px 1px;
@@ -586,7 +595,7 @@ header {
 
 }
 
-#cam h6{
+#cam h6 {
 	font-family: tahoma;
 	font-weight: bold;
 	color: #6a7883;
